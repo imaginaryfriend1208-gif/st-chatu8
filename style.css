@@ -18,39 +18,39 @@
 @import url('./styles/help-tip.css');
 
 /* Sub-navigation styles */
-.st-chatu8-sub-nav {
+.st-chatu8vi-sub-nav {
     display: flex;
-    border-bottom: 1px solid var(--st-chatu8-border-color);
+    border-bottom: 1px solid var(--st-chatu8vi-border-color);
     margin-bottom: 20px;
 }
 
-.st-chatu8-sub-nav-link {
+.st-chatu8vi-sub-nav-link {
     padding: 10px 15px;
     cursor: pointer;
     border-bottom: 2px solid transparent;
     margin-bottom: -1px;
     /* Overlap with parent border */
-    color: var(--st-chatu8-text-color);
+    color: var(--st-chatu8vi-text-color);
     text-decoration: none;
     transition: all 0.2s ease-in-out;
 }
 
-.st-chatu8-sub-nav-link:hover {
-    background-color: var(--st-chatu8-hover-bg-color);
+.st-chatu8vi-sub-nav-link:hover {
+    background-color: var(--st-chatu8vi-hover-bg-color);
 }
 
-.st-chatu8-sub-nav-link.active {
-    border-bottom-color: var(--st-chatu8-accent-color);
-    color: var(--st-chatu8-accent-color);
+.st-chatu8vi-sub-nav-link.active {
+    border-bottom-color: var(--st-chatu8vi-accent-color);
+    color: var(--st-chatu8vi-accent-color);
     font-weight: bold;
 }
 
 /* Sub-tab content container */
-.st-chatu8-sub-tab-content {
+.st-chatu8vi-sub-tab-content {
     display: none;
 }
 
-.st-chatu8-sub-tab-content[style*="display: block"] {
+.st-chatu8vi-sub-tab-content[style*="display: block"] {
     display: block;
 }
 
@@ -64,11 +64,11 @@
 
 .ch-persona-gen-type-selector label {
     font-weight: 500;
-    color: var(--st-chatu8-text-primary);
+    color: var(--st-chatu8vi-text-primary);
 }
 
 /* 统一控制 token 占用的样式 */
-.st-chatu8-token-display {
+.st-chatu8vi-token-display {
     font-size: 0.85em;
     color: inherit;
     margin-top: 4px;

@@ -1,83 +1,83 @@
-.st-chatu8-vocabulary-list {
-    border: 1px solid var(--st-chatu8-border-color);
+.st-chatu8vi-vocabulary-list {
+    border: 1px solid var(--st-chatu8vi-border-color);
     border-radius: 5px;
     padding: 10px;
     max-height: 300px;
     overflow-y: auto;
-    background-color: var(--st-chatu8-bg-color-lighter);
+    background-color: var(--st-chatu8vi-bg-color-lighter);
 }
 
-.st-chatu8-vocabulary-ul {
+.st-chatu8vi-vocabulary-ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
-.st-chatu8-vocabulary-item {
+.st-chatu8vi-vocabulary-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 8px 12px;
-    border-bottom: 1px solid var(--st-chatu8-border-color);
+    border-bottom: 1px solid var(--st-chatu8vi-border-color);
     transition: background-color 0.2s;
 }
 
-.st-chatu8-vocabulary-item:last-child {
+.st-chatu8vi-vocabulary-item:last-child {
     border-bottom: none;
 }
 
-.st-chatu8-vocabulary-item:hover {
-    background-color: var(--st-chatu8-bg-color-hover);
+.st-chatu8vi-vocabulary-item:hover {
+    background-color: var(--st-chatu8vi-bg-color-hover);
 }
 
-.st-chatu8-vocabulary-actions {
+.st-chatu8vi-vocabulary-actions {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.st-chatu8-installed-label {
+.st-chatu8vi-installed-label {
     font-size: 0.9em;
-    color: var(--st-chatu8-text-color-secondary);
+    color: var(--st-chatu8vi-text-color-secondary);
 }
 
-.st-chatu8-search-result-item {
+.st-chatu8vi-search-result-item {
     padding: 5px;
     cursor: pointer;
     border-radius: 3px;
 }
 
-.st-chatu8-search-result-item:hover {
-    background-color: var(--st-chatu8-accent-color);
+.st-chatu8vi-search-result-item:hover {
+    background-color: var(--st-chatu8vi-accent-color);
     color: white;
 }
 
 /* Tag Tree Styles */
-.st-chatu8-tree-container {
-    border: 1px solid var(--st-chatu8-border-color);
+.st-chatu8vi-tree-container {
+    border: 1px solid var(--st-chatu8vi-border-color);
     border-radius: 5px;
     padding: 10px;
     max-height: 400px;
     overflow-y: auto;
-    background-color: var(--st-chatu8-bg-color-lighter);
+    background-color: var(--st-chatu8vi-bg-color-lighter);
 }
 
-.st-chatu8-tree,
-.st-chatu8-tree-sublist,
-.st-chatu8-tree-taglist {
+.st-chatu8vi-tree,
+.st-chatu8vi-tree-sublist,
+.st-chatu8vi-tree-taglist {
     list-style-type: none;
     padding-left: 20px;
 }
 
-.st-chatu8-tree {
+.st-chatu8vi-tree {
     padding-left: 0;
 }
 
-.st-chatu8-tree-item {
+.st-chatu8vi-tree-item {
     margin: 5px 0;
 }
 
-.st-chatu8-tree-content {
+.st-chatu8vi-tree-content {
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -86,11 +86,11 @@
     transition: background-color 0.2s;
 }
 
-.st-chatu8-tree-content:hover {
-    background-color: var(--st-chatu8-bg-color-hover);
+.st-chatu8vi-tree-content:hover {
+    background-color: var(--st-chatu8vi-bg-color-hover);
 }
 
-.st-chatu8-tree-toggle {
+.st-chatu8vi-tree-toggle {
     margin-right: 5px;
     width: 15px;
     display: inline-block;
@@ -99,31 +99,31 @@
     transition: transform 0.2s;
 }
 
-.st-chatu8-tree-group {
+.st-chatu8vi-tree-group {
     font-weight: bold;
-    color: var(--st-chatu8-accent-color);
+    color: var(--st-chatu8vi-accent-color);
 }
 
-.st-chatu8-tree-subgroup {
+.st-chatu8vi-tree-subgroup {
     font-weight: 500;
 }
 
-.st-chatu8-tree-tag {
+.st-chatu8vi-tree-tag {
     padding: 3px 0 3px 20px;
     cursor: pointer;
     border-radius: 3px;
     transition: background-color 0.2s;
     font-size: 0.9em;
-    color: var(--st-chatu8-text-color-secondary);
+    color: var(--st-chatu8vi-text-color-secondary);
 }
 
-.st-chatu8-tree-tag:hover {
-    background-color: var(--st-chatu8-accent-color);
+.st-chatu8vi-tree-tag:hover {
+    background-color: var(--st-chatu8vi-accent-color);
     color: #fff;
 }
 
 /* Styles for Tag Browser Input and Actions */
-.st-chatu8-tag-browser-actions {
+.st-chatu8vi-tag-browser-actions {
     display: flex;
     gap: 10px;
     margin-top: 10px;

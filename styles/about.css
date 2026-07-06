@@ -1,5 +1,5 @@
 /* About Tab Specifics */
-#st-chatu8-settings .st-chatu8-about-links {
+#st-chatu8vi-settings .st-chatu8vi-about-links {
     display: grid;
     grid-template-columns: 1fr;
     gap: 16px;
@@ -7,13 +7,13 @@
     max-width: 400px;
 }
 
-#st-chatu8-settings .st-chatu8-about-link {
+#st-chatu8vi-settings .st-chatu8vi-about-link {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 20px;
-    border-radius: var(--st-chatu8-border-radius);
+    border-radius: var(--st-chatu8vi-border-radius);
     text-decoration: none;
     color: white;
     text-align: center;
@@ -22,30 +22,30 @@
     overflow: hidden;
 }
 
-#st-chatu8-settings .st-chatu8-about-link:hover {
+#st-chatu8vi-settings .st-chatu8vi-about-link:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
-#st-chatu8-settings .st-chatu8-about-link.support {
+#st-chatu8vi-settings .st-chatu8vi-about-link.support {
     background: linear-gradient(135deg, #ff69b4, #ff8c00);
 }
 
-#st-chatu8-settings .st-chatu8-about-link.help {
+#st-chatu8vi-settings .st-chatu8vi-about-link.help {
     background: linear-gradient(135deg, #1e90ff, #32cd32);
 }
 
-#st-chatu8-settings .st-chatu8-about-link .fa-solid {
+#st-chatu8vi-settings .st-chatu8vi-about-link .fa-solid {
     font-size: 2.5rem;
     margin-bottom: 12px;
 }
 
-#st-chatu8-settings .st-chatu8-about-link span {
+#st-chatu8vi-settings .st-chatu8vi-about-link span {
     font-size: 1.1rem;
     font-weight: 600;
 }
 
-#st-chatu8-settings .st-chatu8-cute-emoji {
+#st-chatu8vi-settings .st-chatu8vi-cute-emoji {
     position: absolute;
     font-size: 4rem;
     opacity: 0.1;
@@ -54,14 +54,14 @@
     transition: transform 0.3s ease;
 }
 
-#st-chatu8-settings .st-chatu8-about-link:hover .st-chatu8-cute-emoji {
+#st-chatu8vi-settings .st-chatu8vi-about-link:hover .st-chatu8vi-cute-emoji {
     transform: scale(1.2) rotate(15deg);
 }
 
 /* ========== Update Log / Changelog Styles ========== */
 
 /* Update header with button and status */
-#st-chatu8-settings .st-chatu8-update-header {
+#st-chatu8vi-settings .st-chatu8vi-update-header {
     display: flex;
     align-items: center;
     gap: 12px;
@@ -69,7 +69,7 @@
     flex-wrap: wrap;
 }
 
-#st-chatu8-settings .st-chatu8-update-status {
+#st-chatu8vi-settings .st-chatu8vi-update-status {
     font-size: 0.9rem;
     font-weight: 500;
     padding: 4px 10px;
@@ -77,110 +77,110 @@
     transition: all 0.3s ease;
 }
 
-#st-chatu8-settings .st-chatu8-update-status.available {
+#st-chatu8vi-settings .st-chatu8vi-update-status.available {
     color: #e65100;
     background: rgba(255, 152, 0, 0.12);
 }
 
-#st-chatu8-settings .st-chatu8-update-status.uptodate {
+#st-chatu8vi-settings .st-chatu8vi-update-status.uptodate {
     color: #2e7d32;
     background: rgba(76, 175, 80, 0.12);
 }
 
-#st-chatu8-settings .st-chatu8-update-status.error {
+#st-chatu8vi-settings .st-chatu8vi-update-status.error {
     color: #c62828;
     background: rgba(244, 67, 54, 0.12);
 }
 
-#st-chatu8-settings .st-chatu8-update-status.checking {
+#st-chatu8vi-settings .st-chatu8vi-update-status.checking {
     color: #1565c0;
     background: rgba(33, 150, 243, 0.12);
 }
 
 /* Changelog container */
-#st-chatu8-settings .st-chatu8-changelog-container {
+#st-chatu8vi-settings .st-chatu8vi-changelog-container {
     max-height: 420px;
     overflow-y: auto;
     padding: 4px;
-    border-radius: var(--st-chatu8-border-radius, 8px);
+    border-radius: var(--st-chatu8vi-border-radius, 8px);
     scrollbar-width: thin;
 }
 
-#st-chatu8-settings .st-chatu8-changelog-container::-webkit-scrollbar {
+#st-chatu8vi-settings .st-chatu8vi-changelog-container::-webkit-scrollbar {
     width: 6px;
 }
 
-#st-chatu8-settings .st-chatu8-changelog-container::-webkit-scrollbar-track {
+#st-chatu8vi-settings .st-chatu8vi-changelog-container::-webkit-scrollbar-track {
     background: transparent;
 }
 
-#st-chatu8-settings .st-chatu8-changelog-container::-webkit-scrollbar-thumb {
+#st-chatu8vi-settings .st-chatu8vi-changelog-container::-webkit-scrollbar-thumb {
     background: rgba(128, 128, 128, 0.3);
     border-radius: 3px;
 }
 
-#st-chatu8-settings .st-chatu8-changelog-container::-webkit-scrollbar-thumb:hover {
+#st-chatu8vi-settings .st-chatu8vi-changelog-container::-webkit-scrollbar-thumb:hover {
     background: rgba(128, 128, 128, 0.5);
 }
 
 /* Changelog empty/loading states */
-#st-chatu8-settings .st-chatu8-changelog-empty,
-#st-chatu8-settings .st-chatu8-changelog-loading {
+#st-chatu8vi-settings .st-chatu8vi-changelog-empty,
+#st-chatu8vi-settings .st-chatu8vi-changelog-loading {
     text-align: center;
     padding: 24px 16px;
-    color: var(--st-chatu8-text-secondary);
+    color: var(--st-chatu8vi-text-secondary);
     opacity: 0.7;
     font-size: 0.95rem;
 }
 
 /* Individual changelog entry card */
-#st-chatu8-settings .st-chatu8-changelog-entry {
-    background: var(--st-chatu8-bg-tertiary, var(--st-chatu8-bg-secondary));
-    border: 1px solid var(--st-chatu8-border-color);
-    border-radius: var(--st-chatu8-border-radius, 8px);
+#st-chatu8vi-settings .st-chatu8vi-changelog-entry {
+    background: var(--st-chatu8vi-bg-tertiary, var(--st-chatu8vi-bg-secondary));
+    border: 1px solid var(--st-chatu8vi-border-color);
+    border-radius: var(--st-chatu8vi-border-radius, 8px);
     padding: 12px 16px;
     margin-bottom: 10px;
     transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
 }
 
-#st-chatu8-settings .st-chatu8-changelog-entry:hover {
+#st-chatu8vi-settings .st-chatu8vi-changelog-entry:hover {
     transform: translateX(3px);
-    border-color: var(--st-chatu8-accent-primary);
-    box-shadow: var(--st-chatu8-box-shadow, 0 2px 8px rgba(0, 0, 0, 0.1));
+    border-color: var(--st-chatu8vi-accent-primary);
+    box-shadow: var(--st-chatu8vi-box-shadow, 0 2px 8px rgba(0, 0, 0, 0.1));
 }
 
-#st-chatu8-settings .st-chatu8-changelog-entry:last-child {
+#st-chatu8vi-settings .st-chatu8vi-changelog-entry:last-child {
     margin-bottom: 0;
 }
 
 /* Latest version entry highlight */
-#st-chatu8-settings .st-chatu8-changelog-entry.latest {
-    border-left: 3px solid var(--st-chatu8-accent-primary);
-    background: var(--st-chatu8-bg-tertiary, var(--st-chatu8-bg-secondary));
+#st-chatu8vi-settings .st-chatu8vi-changelog-entry.latest {
+    border-left: 3px solid var(--st-chatu8vi-accent-primary);
+    background: var(--st-chatu8vi-bg-tertiary, var(--st-chatu8vi-bg-secondary));
 }
 
 /* Current version entry highlight */
-#st-chatu8-settings .st-chatu8-changelog-entry.current {
-    border-left: 3px solid var(--st-chatu8-accent-secondary, var(--st-chatu8-accent-primary));
-    background: var(--st-chatu8-bg-tertiary, var(--st-chatu8-bg-secondary));
+#st-chatu8vi-settings .st-chatu8vi-changelog-entry.current {
+    border-left: 3px solid var(--st-chatu8vi-accent-secondary, var(--st-chatu8vi-accent-primary));
+    background: var(--st-chatu8vi-bg-tertiary, var(--st-chatu8vi-bg-secondary));
 }
 
 /* Version row: version number + badge */
-#st-chatu8-settings .st-chatu8-changelog-version-row {
+#st-chatu8vi-settings .st-chatu8vi-changelog-version-row {
     display: flex;
     align-items: center;
     gap: 8px;
     margin-bottom: 6px;
 }
 
-#st-chatu8-settings .st-chatu8-changelog-version {
+#st-chatu8vi-settings .st-chatu8vi-changelog-version {
     font-weight: 700;
     font-size: 1.05rem;
-    color: var(--st-chatu8-text-primary);
+    color: var(--st-chatu8vi-text-primary);
 }
 
 /* Badges */
-#st-chatu8-settings .st-chatu8-changelog-badge {
+#st-chatu8vi-settings .st-chatu8vi-changelog-badge {
     display: inline-block;
     font-size: 0.7rem;
     font-weight: 600;
@@ -189,39 +189,39 @@
     letter-spacing: 0.5px;
 }
 
-#st-chatu8-settings .st-chatu8-changelog-badge.latest {
-    background: var(--st-chatu8-accent-primary);
-    color: var(--st-chatu8-text-highlight, #fff);
+#st-chatu8vi-settings .st-chatu8vi-changelog-badge.latest {
+    background: var(--st-chatu8vi-accent-primary);
+    color: var(--st-chatu8vi-text-highlight, #fff);
 }
 
-#st-chatu8-settings .st-chatu8-changelog-badge.current {
-    background: var(--st-chatu8-accent-secondary, var(--st-chatu8-accent-primary));
-    color: var(--st-chatu8-text-highlight, #fff);
+#st-chatu8vi-settings .st-chatu8vi-changelog-badge.current {
+    background: var(--st-chatu8vi-accent-secondary, var(--st-chatu8vi-accent-primary));
+    color: var(--st-chatu8vi-text-highlight, #fff);
 }
 
 /* Changes list */
-#st-chatu8-settings .st-chatu8-changelog-changes {
+#st-chatu8vi-settings .st-chatu8vi-changelog-changes {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-#st-chatu8-settings .st-chatu8-changelog-changes li {
+#st-chatu8vi-settings .st-chatu8vi-changelog-changes li {
     display: flex;
     align-items: flex-start;
     gap: 6px;
     padding: 3px 0;
     font-size: 0.88rem;
     line-height: 1.45;
-    color: var(--st-chatu8-text-secondary);
+    color: var(--st-chatu8vi-text-secondary);
     opacity: 0.85;
 }
 
-#st-chatu8-settings .st-chatu8-changelog-changes li:hover {
+#st-chatu8vi-settings .st-chatu8vi-changelog-changes li:hover {
     opacity: 1;
 }
 
-#st-chatu8-settings .st-chatu8-changelog-icon {
+#st-chatu8vi-settings .st-chatu8vi-changelog-icon {
     flex-shrink: 0;
     width: 18px;
     text-align: center;

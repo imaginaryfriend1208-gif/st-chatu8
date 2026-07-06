@@ -1,4 +1,4 @@
-# SillyTavern Tạo ảnh từ văn bản (st-chatu8)
+# SillyTavern Tạo ảnh từ văn bản (st-chatu8vi)
 
 **Tác giả:** 从前跟你一样
 **Phiên bản:** 1.0.0
@@ -31,10 +31,10 @@
 
 1.  Trong menu extension của SillyTavern, cài plugin từ URL sau:
     ```
-    https://github.com/imaginaryfriend1208-gif/st-chatu8
+    https://github.com/imaginaryfriend1208-gif/st-chatu8vi
     ```
 2.  Khởi động lại SillyTavern.
-3.  Bật "st-chatu8" trong menu extension.
+3.  Bật "st-chatu8vi" trong menu extension.
 
 ## 📖 Cách dùng
 

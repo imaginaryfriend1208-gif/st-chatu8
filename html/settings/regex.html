@@ -1,156 +1,156 @@
 <div id="ch-tab-regex">
-    <div class="st-chatu8-settings-section">
+    <div class="st-chatu8vi-settings-section">
         <h3>Cài đặt Regex</h3>
-        <div class="st-chatu8-field">
+        <div class="st-chatu8vi-field">
             <label for="ch-regex-profile-select">Cấu hình Regex</label>
-            <div class="st-chatu8-profile-controls">
-                <select id="ch-regex-profile-select" class="st-chatu8-select"></select>
-                <button class="st-chatu8-icon-btn" id="ch-new-regex-profile-button" title="Tạo mới"><i class="fa-solid fa-plus"></i></button>
-                <button class="st-chatu8-icon-btn" id="ch-rename-regex-profile-button" title="Đổi tên"><i class="fa-solid fa-pen"></i></button>
-                <button class="st-chatu8-icon-btn" id="ch-save-regex-profile-button" title="Lưu"><i class="fa-solid fa-save"></i></button>
-                <button class="st-chatu8-icon-btn" id="ch-save-as-regex-profile-button" title="Lưu thành"><i class="fa-solid fa-floppy-disk"></i></button>
-                <button class="st-chatu8-icon-btn" id="ch-import-regex-profile-button" title="Nhập"><i class="fa-solid fa-file-import"></i></button>
-                <button class="st-chatu8-icon-btn" id="ch-export-regex-profile-button" title="Xuất"><i class="fa-solid fa-file-export"></i></button>
-                <button class="st-chatu8-icon-btn danger" id="ch-delete-regex-profile-button" title="Xóa"><i class="fa-solid fa-trash"></i></button>
+            <div class="st-chatu8vi-profile-controls">
+                <select id="ch-regex-profile-select" class="st-chatu8vi-select"></select>
+                <button class="st-chatu8vi-icon-btn" id="ch-new-regex-profile-button" title="Tạo mới"><i class="fa-solid fa-plus"></i></button>
+                <button class="st-chatu8vi-icon-btn" id="ch-rename-regex-profile-button" title="Đổi tên"><i class="fa-solid fa-pen"></i></button>
+                <button class="st-chatu8vi-icon-btn" id="ch-save-regex-profile-button" title="Lưu"><i class="fa-solid fa-save"></i></button>
+                <button class="st-chatu8vi-icon-btn" id="ch-save-as-regex-profile-button" title="Lưu thành"><i class="fa-solid fa-floppy-disk"></i></button>
+                <button class="st-chatu8vi-icon-btn" id="ch-import-regex-profile-button" title="Nhập"><i class="fa-solid fa-file-import"></i></button>
+                <button class="st-chatu8vi-icon-btn" id="ch-export-regex-profile-button" title="Xuất"><i class="fa-solid fa-file-export"></i></button>
+                <button class="st-chatu8vi-icon-btn danger" id="ch-delete-regex-profile-button" title="Xóa"><i class="fa-solid fa-trash"></i></button>
             </div>
         </div>
-        <div class="st-chatu8-field-col">
+        <div class="st-chatu8vi-field-col">
             <label for="ch-regex-before-after-editor">Regex trước/sau (dùng để cắt phần đầu/cuối)</label>
-            <textarea id="ch-regex-before-after-editor" class="st-chatu8-textarea" rows="3" placeholder="Nhập biểu thức chính quy..."></textarea>
+            <textarea id="ch-regex-before-after-editor" class="st-chatu8vi-textarea" rows="3" placeholder="Nhập biểu thức chính quy..."></textarea>
         </div>
-        <div class="st-chatu8-field-col">
+        <div class="st-chatu8vi-field-col">
             <label for="ch-regex-text-editor">Regex văn bản (dùng để thay thế nội dung)</label>
-            <textarea id="ch-regex-text-editor" class="st-chatu8-textarea" rows="5" placeholder="Nhập biểu thức chính quy..."></textarea>
+            <textarea id="ch-regex-text-editor" class="st-chatu8vi-textarea" rows="5" placeholder="Nhập biểu thức chính quy..."></textarea>
         </div>
     </div>
-    <div class="st-chatu8-settings-section">
+    <div class="st-chatu8vi-settings-section">
         <h4>Trình sửa preset Regex</h4>
-        <div class="st-chatu8-field">
-            <div class="st-chatu8-profile-controls">
-                <button class="st-chatu8-btn" id="ch-add-regex-entry-button" title="Tạo mục Regex mới">
+        <div class="st-chatu8vi-field">
+            <div class="st-chatu8vi-profile-controls">
+                <button class="st-chatu8vi-btn" id="ch-add-regex-entry-button" title="Tạo mục Regex mới">
                     <i class="fa-solid fa-plus"></i> Tạo mới
                 </button>
-                <button class="st-chatu8-btn" id="ch-import-regex-entry-button" title="Nhập mục Regex">
+                <button class="st-chatu8vi-btn" id="ch-import-regex-entry-button" title="Nhập mục Regex">
                     <i class="fa-solid fa-file-import"></i> Nhập
                 </button>
-                <button class="st-chatu8-btn" id="ch-import-regex-entry-engine-button" title="Nhập từ engine Regex của ST">
+                <button class="st-chatu8vi-btn" id="ch-import-regex-entry-engine-button" title="Nhập từ engine Regex của ST">
                     <i class="fa-solid fa-download"></i> Nhập từ engine ST
                 </button>
             </div>
         </div>
-        <div id="ch-regex-entries-container" class="st-chatu8-preset-entries-container">
+        <div id="ch-regex-entries-container" class="st-chatu8vi-preset-entries-container">
             <!-- Các mục Regex sẽ được render động tại đây -->
         </div>
     </div>
-    <div class="st-chatu8-settings-section">
+    <div class="st-chatu8vi-settings-section">
         <h4>Thay thế từ đơn giản</h4>
-        <div class="st-chatu8-field">
+        <div class="st-chatu8vi-field">
             <label for="ch-word-replace-profile-select">Cấu hình thay thế</label>
-            <div class="st-chatu8-profile-controls">
-                <select id="ch-word-replace-profile-select" class="st-chatu8-select"></select>
-                <button class="st-chatu8-icon-btn" id="ch-new-word-replace-profile-button" title="Tạo mới"><i class="fa-solid fa-plus"></i></button>
-                <button class="st-chatu8-icon-btn" id="ch-rename-word-replace-profile-button" title="Đổi tên"><i class="fa-solid fa-pen"></i></button>
-                <button class="st-chatu8-icon-btn" id="ch-save-word-replace-profile-button" title="Lưu"><i class="fa-solid fa-save"></i></button>
-                <button class="st-chatu8-icon-btn" id="ch-import-word-replace-profile-button" title="Nhập"><i class="fa-solid fa-file-import"></i></button>
-                <button class="st-chatu8-icon-btn" id="ch-export-word-replace-profile-button" title="Xuất"><i class="fa-solid fa-file-export"></i></button>
-                <button class="st-chatu8-icon-btn danger" id="ch-delete-word-replace-profile-button" title="Xóa"><i class="fa-solid fa-trash"></i></button>
+            <div class="st-chatu8vi-profile-controls">
+                <select id="ch-word-replace-profile-select" class="st-chatu8vi-select"></select>
+                <button class="st-chatu8vi-icon-btn" id="ch-new-word-replace-profile-button" title="Tạo mới"><i class="fa-solid fa-plus"></i></button>
+                <button class="st-chatu8vi-icon-btn" id="ch-rename-word-replace-profile-button" title="Đổi tên"><i class="fa-solid fa-pen"></i></button>
+                <button class="st-chatu8vi-icon-btn" id="ch-save-word-replace-profile-button" title="Lưu"><i class="fa-solid fa-save"></i></button>
+                <button class="st-chatu8vi-icon-btn" id="ch-import-word-replace-profile-button" title="Nhập"><i class="fa-solid fa-file-import"></i></button>
+                <button class="st-chatu8vi-icon-btn" id="ch-export-word-replace-profile-button" title="Xuất"><i class="fa-solid fa-file-export"></i></button>
+                <button class="st-chatu8vi-icon-btn danger" id="ch-delete-word-replace-profile-button" title="Xóa"><i class="fa-solid fa-trash"></i></button>
             </div>
         </div>
-        <div class="st-chatu8-field-col">
+        <div class="st-chatu8vi-field-col">
             <label for="ch-word-replace-text-editor">Thay thế văn bản chính (thay văn bản trò chuyện khi hiển thị)</label>
-            <textarea id="ch-word-replace-text-editor" class="st-chatu8-textarea" rows="5" placeholder="Mỗi dòng một quy tắc, định dạng: từ1=từ2&#10;Ví dụ: thịt=dưa leo"></textarea>
+            <textarea id="ch-word-replace-text-editor" class="st-chatu8vi-textarea" rows="5" placeholder="Mỗi dòng một quy tắc, định dạng: từ1=từ2&#10;Ví dụ: thịt=dưa leo"></textarea>
         </div>
-        <div class="st-chatu8-field-col">
+        <div class="st-chatu8vi-field-col">
             <label for="ch-word-replace-ai-editor">Thay thế phản hồi AI (thay trước khi phân tích đầu ra AI)</label>
-            <textarea id="ch-word-replace-ai-editor" class="st-chatu8-textarea" rows="3" placeholder="Mỗi dòng một quy tắc, định dạng: từ1=từ2&#10;Ví dụ: safe_="></textarea>
+            <textarea id="ch-word-replace-ai-editor" class="st-chatu8vi-textarea" rows="3" placeholder="Mỗi dòng một quy tắc, định dạng: từ1=từ2&#10;Ví dụ: safe_="></textarea>
         </div>
     </div>
-    <div class="st-chatu8-settings-section">
+    <div class="st-chatu8vi-settings-section">
         <h4>Ghi cử chỉ</h4>
-        <div class="st-chatu8-field">
+        <div class="st-chatu8vi-field">
             <label for="ch-gesture-enabled">Công tắc cử chỉ</label>
-            <div class="st-chatu8-toggle">
+            <div class="st-chatu8vi-toggle">
                 <input id="ch-gesture-enabled" type="checkbox" />
-                <span class="st-chatu8-slider"></span>
+                <span class="st-chatu8vi-slider"></span>
             </div>
         </div>
-        <div class="st-chatu8-field">
+        <div class="st-chatu8vi-field">
             <label for="ch-click-trigger-enabled">Công tắc kích hoạt click</label>
-            <div class="st-chatu8-toggle">
+            <div class="st-chatu8vi-toggle">
                 <input id="ch-click-trigger-enabled" type="checkbox" />
-                <span class="st-chatu8-slider"></span>
+                <span class="st-chatu8vi-slider"></span>
             </div>
         </div>
-        <div class="st-chatu8-field">
+        <div class="st-chatu8vi-field">
             <label for="ch-gesture-1-button">Cử chỉ một</label>
-            <button class="st-chatu8-btn" id="ch-gesture-1-button">Ghi cử chỉ một</button>
+            <button class="st-chatu8vi-btn" id="ch-gesture-1-button">Ghi cử chỉ một</button>
         </div>
-        <div class="st-chatu8-field">
+        <div class="st-chatu8vi-field">
             <label for="ch-gesture-2-button">Cử chỉ hai</label>
-            <button class="st-chatu8-btn" id="ch-gesture-2-button">Ghi cử chỉ hai</button>
+            <button class="st-chatu8vi-btn" id="ch-gesture-2-button">Ghi cử chỉ hai</button>
         </div>
-        <div class="st-chatu8-field">
+        <div class="st-chatu8vi-field">
             <label for="ch-image-gen-demand-enabled">Hộp thoại nhu cầu sinh ảnh</label>
-            <div class="st-chatu8-toggle">
+            <div class="st-chatu8vi-toggle">
                 <input id="ch-image-gen-demand-enabled" type="checkbox" />
-                <span class="st-chatu8-slider"></span>
+                <span class="st-chatu8vi-slider"></span>
             </div>
         </div>
-        <div class="st-chatu8-field-col">
+        <div class="st-chatu8vi-field-col">
             <label for="ch-default-char-demand">Nhu cầu người dùng mặc định khi sinh nhân vật</label>
-            <textarea id="ch-default-char-demand" class="st-chatu8-textarea" rows="2" placeholder="Dùng giá trị mặc định này khi nhu cầu người dùng trống..."></textarea>
+            <textarea id="ch-default-char-demand" class="st-chatu8vi-textarea" rows="2" placeholder="Dùng giá trị mặc định này khi nhu cầu người dùng trống..."></textarea>
         </div>
-        <div class="st-chatu8-field-col">
+        <div class="st-chatu8vi-field-col">
             <label for="ch-default-image-demand">Nhu cầu người dùng mặc định khi sinh ảnh</label>
-            <textarea id="ch-default-image-demand" class="st-chatu8-textarea" rows="2" placeholder="Dùng giá trị mặc định này khi nhu cầu người dùng trống..."></textarea>
+            <textarea id="ch-default-image-demand" class="st-chatu8vi-textarea" rows="2" placeholder="Dùng giá trị mặc định này khi nhu cầu người dùng trống..."></textarea>
         </div>
-        <div class="st-chatu8-field">
+        <div class="st-chatu8vi-field">
             <label for="ch-gesture-show-recognition">Hiển thị nhận dạng</label>
-            <div class="st-chatu8-toggle">
+            <div class="st-chatu8vi-toggle">
                 <input id="ch-gesture-show-recognition" type="checkbox" />
-                <span class="st-chatu8-slider"></span>
+                <span class="st-chatu8vi-slider"></span>
             </div>
         </div>
-        <div class="st-chatu8-field">
+        <div class="st-chatu8vi-field">
             <label for="ch-gesture-show-trail">Hiển thị nét vẽ</label>
-            <div class="st-chatu8-toggle">
+            <div class="st-chatu8vi-toggle">
                 <input id="ch-gesture-show-trail" type="checkbox" />
-                <span class="st-chatu8-slider"></span>
+                <span class="st-chatu8vi-slider"></span>
             </div>
         </div>
-        <div class="st-chatu8-field">
+        <div class="st-chatu8vi-field">
             <label for="ch-gesture-trail-color">Màu nét vẽ</label>
-            <input type="color" id="ch-gesture-trail-color" class="st-chatu8-input">
+            <input type="color" id="ch-gesture-trail-color" class="st-chatu8vi-input">
         </div>
-        <div class="st-chatu8-field">
+        <div class="st-chatu8vi-field">
             <label for="ch-gesture-match-threshold">Ngưỡng khớp</label>
-            <input type="range" id="ch-gesture-match-threshold" class="st-chatu8-slider-input" min="0" max="100" step="1">
-            <span id="ch-gesture-match-threshold-value" class="st-chatu8-slider-value"></span>
+            <input type="range" id="ch-gesture-match-threshold" class="st-chatu8vi-slider-input" min="0" max="100" step="1">
+            <span id="ch-gesture-match-threshold-value" class="st-chatu8vi-slider-value"></span>
         </div>
     </div>
-    <div class="st-chatu8-settings-section">
+    <div class="st-chatu8vi-settings-section">
         <h4>Công cụ kiểm tra</h4>
-        <div class="st-chatu8-field">
+        <div class="st-chatu8vi-field">
             <label for="ch-regex-test-mode">Chế độ kiểm tra</label>
-            <div class="st-chatu8-toggle">
+            <div class="st-chatu8vi-toggle">
                 <input id="ch-regex-test-mode" type="checkbox" />
-                <span class="st-chatu8-slider"></span>
+                <span class="st-chatu8vi-slider"></span>
             </div>
         </div>
-        <div class="st-chatu8-field-col">
+        <div class="st-chatu8vi-field-col">
             <label for="ch-regex-test-original-text">Văn bản gốc</label>
-            <textarea id="ch-regex-test-original-text" class="st-chatu8-textarea" rows="6"></textarea>
+            <textarea id="ch-regex-test-original-text" class="st-chatu8vi-textarea" rows="6"></textarea>
         </div>
         <div style="text-align: center; margin: 10px 0;">
-            <button class="st-chatu8-btn" id="ch-test-regex-button">
+            <button class="st-chatu8vi-btn" id="ch-test-regex-button">
                 <i class="fa-solid fa-arrow-down"></i>
                 Áp dụng Regex và kiểm tra
                 <i class="fa-solid fa-arrow-down"></i>
             </button>
         </div>
-        <div class="st-chatu8-field-col">
+        <div class="st-chatu8vi-field-col">
             <label for="ch-regex-test-result-text">Văn bản sau Regex</label>
-            <textarea id="ch-regex-test-result-text" class="st-chatu8-textarea" rows="6" readonly></textarea>
+            <textarea id="ch-regex-test-result-text" class="st-chatu8vi-textarea" rows="6" readonly></textarea>
         </div>
     </div>
 </div>

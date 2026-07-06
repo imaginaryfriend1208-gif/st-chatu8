@@ -1,6 +1,6 @@
 /* Confirmation Modal Styles */
-#st-chatu8-settings .st-chatu8-confirm-backdrop,
-.st-chatu8-confirm-backdrop {
+#st-chatu8vi-settings .st-chatu8vi-confirm-backdrop,
+.st-chatu8vi-confirm-backdrop {
     position: absolute;
     /* Changed from fixed to absolute */
     top: 0;
@@ -12,16 +12,16 @@
     place-items: center;
     z-index: 1100;
     /* Higher than modal */
-    font-family: var(--st-chatu8-font-family);
+    font-family: var(--st-chatu8vi-font-family);
 }
 
-#st-chatu8-settings .st-chatu8-confirm-box,
-.st-chatu8-confirm-box {
-    background-color: var(--st-chatu8-bg-primary);
-    color: var(--st-chatu8-text-primary);
+#st-chatu8vi-settings .st-chatu8vi-confirm-box,
+.st-chatu8vi-confirm-box {
+    background-color: var(--st-chatu8vi-bg-primary);
+    color: var(--st-chatu8vi-text-primary);
     padding: 24px;
-    border-radius: var(--st-chatu8-border-radius);
-    box-shadow: var(--st-chatu8-box-shadow);
+    border-radius: var(--st-chatu8vi-border-radius);
+    box-shadow: var(--st-chatu8vi-box-shadow);
     width: 90vw;
     max-width: 450px;
     display: flex;
@@ -29,14 +29,14 @@
     gap: 16px;
 }
 
-#st-chatu8-settings .st-chatu8-confirm-message,
-.st-chatu8-confirm-message {
+#st-chatu8vi-settings .st-chatu8vi-confirm-message,
+.st-chatu8vi-confirm-message {
     margin: 0;
     font-size: 1.1rem;
 }
 
-#st-chatu8-settings .st-chatu8-confirm-buttons,
-.st-chatu8-confirm-buttons {
+#st-chatu8vi-settings .st-chatu8vi-confirm-buttons,
+.st-chatu8vi-confirm-buttons {
     display: flex;
     justify-content: flex-end;
     gap: 12px;
@@ -44,14 +44,14 @@
 }
 
 /* Ensure the input inside the confirm box is also styled */
-#st-chatu8-settings .st-chatu8-confirm-box .st-chatu8-text-input,
-.st-chatu8-confirm-box .st-chatu8-text-input {
+#st-chatu8vi-settings .st-chatu8vi-confirm-box .st-chatu8vi-text-input,
+.st-chatu8vi-confirm-box .st-chatu8vi-text-input {
     width: 100%;
     box-sizing: border-box;
 }
 
 /* Styles for the image tag edit dialog */
-.st-chatu8-edit-backdrop {
+.st-chatu8vi-edit-backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -61,13 +61,13 @@
     display: grid;
     place-items: center;
     z-index: 10000;
-    font-family: var(--st-chatu8-font-family, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif);
+    font-family: var(--st-chatu8vi-font-family, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif);
 }
 
-.st-chatu8-edit-dialog {
-    background-color: var(--st-chatu8-bg-primary, #2c2c2c);
-    color: var(--st-chatu8-text-primary, #f0f0f0);
-    border: 1px solid var(--st-chatu8-border-color, #444);
+.st-chatu8vi-edit-dialog {
+    background-color: var(--st-chatu8vi-bg-primary, #2c2c2c);
+    color: var(--st-chatu8vi-text-primary, #f0f0f0);
+    border: 1px solid var(--st-chatu8vi-border-color, #444);
     border-radius: 12px;
     padding: 20px;
     z-index: 10001;
@@ -85,27 +85,27 @@
     /* No position/transform needed as backdrop handles centering */
 }
 
-.st-chatu8-edit-title {
+.st-chatu8vi-edit-title {
     font-size: 1.2em;
     font-weight: 600;
     margin-bottom: 5px;
     text-align: center;
-    color: var(--st-chatu8-text-primary, #e0e0e0);
+    color: var(--st-chatu8vi-text-primary, #e0e0e0);
 }
 
-.st-chatu8-edit-input {
+.st-chatu8vi-edit-input {
     width: 100%;
     min-height: 200px;
     max-height: 50vh;
     /* 限制最大高度，防止输入框过大 */
-    background-color: var(--st-chatu8-input-bg, #3a3a3a);
-    color: var(--st-chatu8-input-text, #f0f0f0);
-    border: 1px solid var(--st-chatu8-input-border, #555);
+    background-color: var(--st-chatu8vi-input-bg, #3a3a3a);
+    color: var(--st-chatu8vi-input-text, #f0f0f0);
+    border: 1px solid var(--st-chatu8vi-input-border, #555);
     border-radius: 8px;
     padding: 10px;
     box-sizing: border-box;
     font-size: 1em;
-    font-family: var(--st-chatu8-font-family, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif);
+    font-family: var(--st-chatu8vi-font-family, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif);
     line-height: 1.5;
     letter-spacing: normal;
     word-spacing: normal;
@@ -117,34 +117,34 @@
     transition: border-color 0.2s, box-shadow 0.2s;
 }
 
-.st-chatu8-edit-input:focus {
+.st-chatu8vi-edit-input:focus {
     outline: none;
-    border-color: var(--st-chatu8-accent-primary, #4a90e2);
+    border-color: var(--st-chatu8vi-accent-primary, #4a90e2);
     box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.3);
 }
 
-.st-chatu8-highlight-match {
+.st-chatu8vi-highlight-match {
     background-color: rgba(46, 204, 113, 0.25);
     border-radius: 4px;
     padding: 2px 0;
     box-shadow: 0 0 0 1px rgba(46, 204, 113, 0.4);
 }
 
-.st-chatu8-highlight-error {
+.st-chatu8vi-highlight-error {
     background-color: rgba(231, 76, 60, 0.25);
     border-radius: 4px;
     padding: 2px 0;
     box-shadow: 0 0 0 1px rgba(231, 76, 60, 0.4);
 }
 
-.st-chatu8-edit-buttons {
+.st-chatu8vi-edit-buttons {
     display: flex;
     justify-content: flex-end;
     gap: 10px;
     margin-top: 10px;
 }
 
-.st-chatu8-edit-button {
+.st-chatu8vi-edit-button {
     border: none;
     border-radius: 6px;
     padding: 10px 20px;
@@ -154,32 +154,32 @@
     transition: background-color 0.2s, transform 0.1s;
 }
 
-.st-chatu8-edit-button:active {
+.st-chatu8vi-edit-button:active {
     transform: scale(0.98);
 }
 
-.st-chatu8-edit-button.send {
-    background-color: var(--st-chatu8-accent-primary, #4a90e2);
-    color: var(--st-chatu8-text-highlight, white);
+.st-chatu8vi-edit-button.send {
+    background-color: var(--st-chatu8vi-accent-primary, #4a90e2);
+    color: var(--st-chatu8vi-text-highlight, white);
 }
 
-.st-chatu8-edit-button.send:hover {
-    background-color: var(--st-chatu8-accent-secondary, #357abd);
+.st-chatu8vi-edit-button.send:hover {
+    background-color: var(--st-chatu8vi-accent-secondary, #357abd);
 }
 
-.st-chatu8-edit-button.cancel {
-    background-color: var(--st-chatu8-bg-secondary, #555);
-    color: var(--st-chatu8-text-primary, #f0f0f0);
+.st-chatu8vi-edit-button.cancel {
+    background-color: var(--st-chatu8vi-bg-secondary, #555);
+    color: var(--st-chatu8vi-text-primary, #f0f0f0);
 }
 
-.st-chatu8-edit-button.cancel:hover {
-    background-color: var(--st-chatu8-bg-tertiary, #666);
+.st-chatu8vi-edit-button.cancel:hover {
+    background-color: var(--st-chatu8vi-bg-tertiary, #666);
 }
 
 /* ComfyUI Inpaint Dialog Specific Styles */
 
 /* Editor container */
-.st-chatu8-inpaint-editor-container {
+.st-chatu8vi-inpaint-editor-container {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -188,7 +188,7 @@
 }
 
 /* Toolbar styles */
-.st-chatu8-inpaint-toolbar {
+.st-chatu8vi-inpaint-toolbar {
     display: flex;
     gap: 10px;
     align-items: center;
@@ -196,40 +196,40 @@
     margin-bottom: 15px;
 }
 
-.st-chatu8-tool-btn {
+.st-chatu8vi-tool-btn {
     padding: 8px 12px;
-    border: 1px solid var(--st-chatu8-border-color, #444);
+    border: 1px solid var(--st-chatu8vi-border-color, #444);
     border-radius: 6px;
-    background: var(--st-chatu8-bg-secondary, #2a2a4a);
-    color: var(--st-chatu8-text-primary, #fff);
+    background: var(--st-chatu8vi-bg-secondary, #2a2a4a);
+    color: var(--st-chatu8vi-text-primary, #fff);
     cursor: pointer;
     transition: all 0.2s;
     font-size: 0.9em;
 }
 
-.st-chatu8-tool-btn:hover {
-    background: var(--st-chatu8-accent-secondary, #3a3a5a);
+.st-chatu8vi-tool-btn:hover {
+    background: var(--st-chatu8vi-accent-secondary, #3a3a5a);
 }
 
-.st-chatu8-tool-btn.active {
-    background: var(--st-chatu8-accent-primary, #4a4a8a);
-    border-color: var(--st-chatu8-accent-primary, #6a6aaa);
+.st-chatu8vi-tool-btn.active {
+    background: var(--st-chatu8vi-accent-primary, #4a4a8a);
+    border-color: var(--st-chatu8vi-accent-primary, #6a6aaa);
 }
 
-.st-chatu8-inpaint-brush-label {
+.st-chatu8vi-inpaint-brush-label {
     display: flex;
     align-items: center;
     gap: 8px;
     font-size: 0.9em;
-    color: var(--st-chatu8-text-secondary, #ccc);
+    color: var(--st-chatu8vi-text-secondary, #ccc);
 }
 
-.st-chatu8-inpaint-brush-slider {
+.st-chatu8vi-inpaint-brush-slider {
     width: 100px;
 }
 
 /* Prompt section styles */
-.st-chatu8-inpaint-prompt-section {
+.st-chatu8vi-inpaint-prompt-section {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -237,48 +237,48 @@
     margin-bottom: 15px;
 }
 
-.st-chatu8-inpaint-prompt-group {
+.st-chatu8vi-inpaint-prompt-group {
     display: flex;
     flex-direction: column;
     gap: 5px;
     position: relative;
 }
 
-.st-chatu8-inpaint-prompt-group label {
+.st-chatu8vi-inpaint-prompt-group label {
     font-size: 0.9em;
-    color: var(--st-chatu8-text-secondary, #ccc);
+    color: var(--st-chatu8vi-text-secondary, #ccc);
 }
 
-.st-chatu8-inpaint-denoise-group {
+.st-chatu8vi-inpaint-denoise-group {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.st-chatu8-inpaint-denoise-label {
+.st-chatu8vi-inpaint-denoise-label {
     flex-shrink: 0;
     font-size: 0.9em;
-    color: var(--st-chatu8-text-secondary, #ccc);
+    color: var(--st-chatu8vi-text-secondary, #ccc);
 }
 
-.st-chatu8-inpaint-denoise-slider {
+.st-chatu8vi-inpaint-denoise-slider {
     flex: 1;
     min-width: 100px;
 }
 
-.st-chatu8-inpaint-denoise-value {
+.st-chatu8vi-inpaint-denoise-value {
     min-width: 40px;
     text-align: right;
     font-size: 0.9em;
-    color: var(--st-chatu8-text-primary, #fff);
+    color: var(--st-chatu8vi-text-primary, #fff);
 }
 
 /* Autocomplete styles for inpaint dialog */
-.st-chatu8-edit-backdrop .ch-autocomplete-results {
+.st-chatu8vi-edit-backdrop .ch-autocomplete-results {
     display: none;
     position: absolute;
-    background-color: var(--st-chatu8-dropdown-list-bg, #2a2a4a);
-    border: 1px solid var(--st-chatu8-border-color, #444);
+    background-color: var(--st-chatu8vi-dropdown-list-bg, #2a2a4a);
+    border: 1px solid var(--st-chatu8vi-border-color, #444);
     border-radius: 6px;
     max-height: 150px;
     overflow-y: auto;
@@ -287,20 +287,20 @@
     max-width: 100%;
 }
 
-.st-chatu8-edit-backdrop .ch-autocomplete-item {
+.st-chatu8vi-edit-backdrop .ch-autocomplete-item {
     padding: 8px 12px;
     cursor: pointer;
-    color: var(--st-chatu8-dropdown-text, #fff);
+    color: var(--st-chatu8vi-dropdown-text, #fff);
     font-size: 0.9em;
 }
 
-.st-chatu8-edit-backdrop .ch-autocomplete-item:hover {
-    background-color: var(--st-chatu8-accent-secondary, #3a3a5a);
-    color: var(--st-chatu8-text-highlight, #fff);
+.st-chatu8vi-edit-backdrop .ch-autocomplete-item:hover {
+    background-color: var(--st-chatu8vi-accent-secondary, #3a3a5a);
+    color: var(--st-chatu8vi-text-highlight, #fff);
 }
 
 /* Image Preview Modal */
-.st-chatu8-preview-backdrop {
+.st-chatu8vi-preview-backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -310,10 +310,10 @@
     display: grid;
     place-items: center;
     z-index: 10000;
-    font-family: var(--st-chatu8-font-family, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif);
+    font-family: var(--st-chatu8vi-font-family, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif);
 }
 
-.st-chatu8-preview-dialog {
+.st-chatu8vi-preview-dialog {
     background-color: #2c2c2c;
     color: #f0f0f0;
     border-radius: 12px;
@@ -332,7 +332,7 @@
     min-height: 0;
 }
 
-.st-chatu8-preview-close {
+.st-chatu8vi-preview-close {
     position: absolute;
     top: 10px;
     right: 20px;
@@ -343,11 +343,11 @@
     z-index: 10;
 }
 
-.st-chatu8-preview-close:hover {
+.st-chatu8vi-preview-close:hover {
     color: white;
 }
 
-.st-chatu8-preview-thumbnail-container {
+.st-chatu8vi-preview-thumbnail-container {
     display: flex;
     gap: 10px;
     padding: 10px;
@@ -357,7 +357,7 @@
     flex-shrink: 0;
 }
 
-.st-chatu8-preview-thumbnail {
+.st-chatu8vi-preview-thumbnail {
     height: 80px;
     width: auto;
     cursor: pointer;
@@ -366,15 +366,15 @@
     transition: border-color 0.2s, transform 0.2s;
 }
 
-.st-chatu8-preview-thumbnail:hover {
+.st-chatu8vi-preview-thumbnail:hover {
     transform: scale(1.05);
 }
 
-.st-chatu8-preview-thumbnail.active {
+.st-chatu8vi-preview-thumbnail.active {
     border-color: #4a90e2;
 }
 
-.st-chatu8-preview-image-container {
+.st-chatu8vi-preview-image-container {
     flex: 1 1 0;
     min-height: 0;
     position: relative;
@@ -384,14 +384,14 @@
     overflow: hidden;
 }
 
-.st-chatu8-preview-large-image {
+.st-chatu8vi-preview-large-image {
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
     border-radius: 8px;
 }
 
-.st-chatu8-preview-nav {
+.st-chatu8vi-preview-nav {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -406,19 +406,19 @@
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.st-chatu8-preview-nav:hover {
+.st-chatu8vi-preview-nav:hover {
     background-color: rgba(34, 34, 34, 0.6);
 }
 
-.st-chatu8-preview-nav.prev {
+.st-chatu8vi-preview-nav.prev {
     left: 15px;
 }
 
-.st-chatu8-preview-nav.next {
+.st-chatu8vi-preview-nav.next {
     right: 15px;
 }
 
-.st-chatu8-preview-actions {
+.st-chatu8vi-preview-actions {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -429,7 +429,7 @@
     flex-wrap: wrap;
 }
 
-.st-chatu8-preview-action-button {
+.st-chatu8vi-preview-action-button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -453,28 +453,28 @@
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.15);
 }
 
-.st-chatu8-preview-action-button i {
+.st-chatu8vi-preview-action-button i {
     font-size: 0.95em;
     opacity: 0.95;
 }
 
-.st-chatu8-preview-action-button:hover {
+.st-chatu8vi-preview-action-button:hover {
     transform: translateY(-1px);
     box-shadow: 0 6px 18px rgba(74, 144, 226, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.2);
     border-color: rgba(255, 255, 255, 0.22);
 }
 
-.st-chatu8-preview-action-button:active {
+.st-chatu8vi-preview-action-button:active {
     transform: translateY(0) scale(0.98);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
-.st-chatu8-preview-action-button.danger {
+.st-chatu8vi-preview-action-button.danger {
     background: linear-gradient(135deg, rgba(229, 83, 83, 0.92) 0%, rgba(193, 48, 72, 0.92) 100%);
     border-color: rgba(255, 255, 255, 0.12);
 }
 
-.st-chatu8-preview-action-button.danger:hover {
+.st-chatu8vi-preview-action-button.danger:hover {
     box-shadow: 0 6px 18px rgba(217, 83, 79, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.2);
     border-color: rgba(255, 255, 255, 0.22);
 }
@@ -482,7 +482,7 @@
 /* 移动端适配：全屏铺满 + 更紧凑的按钮栏，避免图片被按钮遮挡 */
 @media (max-width: 640px),
 (pointer: coarse) {
-    .st-chatu8-preview-dialog {
+    .st-chatu8vi-preview-dialog {
         width: 100vw;
         height: 100vh;
         height: 100dvh;
@@ -493,18 +493,18 @@
         gap: 6px;
     }
 
-    .st-chatu8-preview-close {
+    .st-chatu8vi-preview-close {
         top: 6px;
         right: 10px;
         font-size: 2rem;
     }
 
-    .st-chatu8-preview-actions {
+    .st-chatu8vi-preview-actions {
         padding: 6px 4px;
         gap: 8px;
     }
 
-    .st-chatu8-preview-action-button {
+    .st-chatu8vi-preview-action-button {
         flex: 1 1 0;
         min-width: 0;
         padding: 10px 12px;
@@ -512,23 +512,23 @@
     }
 
     /* 触屏设备：隐藏左右按钮，使用滑动手势切换（使用 !important 覆盖内联样式） */
-    .st-chatu8-preview-nav {
+    .st-chatu8vi-preview-nav {
         display: none !important;
     }
 
     /* 图片容器启用水平滑动手势的默认行为 */
-    .st-chatu8-preview-image-container {
+    .st-chatu8vi-preview-image-container {
         touch-action: pan-y;
     }
 
     /* 计数器上移稍靠近顶边，避免遮挡图片 */
-    .st-chatu8-preview-counter {
+    .st-chatu8vi-preview-counter {
         top: 6px !important;
     }
 }
 
 /* Workflow Visualization Styles */
-.st-chatu8-workflow-viz-backdrop {
+.st-chatu8vi-workflow-viz-backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -540,10 +540,10 @@
     display: grid;
     place-items: center;
     z-index: 10000;
-    font-family: var(--st-chatu8-font-family, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif);
+    font-family: var(--st-chatu8vi-font-family, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif);
 }
 
-.st-chatu8-workflow-viz-dialog {
+.st-chatu8vi-workflow-viz-dialog {
     background-color: #1a1a2e;
     color: #f0f0f0;
     border: 1px solid #333;
@@ -559,7 +559,7 @@
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
 }
 
-.st-chatu8-workflow-viz-header {
+.st-chatu8vi-workflow-viz-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -568,14 +568,14 @@
     border-bottom: 1px solid #333;
 }
 
-.st-chatu8-workflow-viz-header h3 {
+.st-chatu8vi-workflow-viz-header h3 {
     margin: 0;
     font-size: 1.2em;
     font-weight: 600;
     color: #e0e0e0;
 }
 
-.st-chatu8-workflow-viz-close {
+.st-chatu8vi-workflow-viz-close {
     font-size: 2rem;
     color: #888;
     cursor: pointer;
@@ -583,11 +583,11 @@
     line-height: 1;
 }
 
-.st-chatu8-workflow-viz-close:hover {
+.st-chatu8vi-workflow-viz-close:hover {
     color: #fff;
 }
 
-.st-chatu8-workflow-viz-toolbar {
+.st-chatu8vi-workflow-viz-toolbar {
     display: flex;
     gap: 10px;
     padding: 12px 20px;
@@ -596,7 +596,7 @@
     align-items: center;
 }
 
-.st-chatu8-workflow-viz-toolbar .st-chatu8-btn {
+.st-chatu8vi-workflow-viz-toolbar .st-chatu8vi-btn {
     padding: 8px 14px;
     font-size: 0.9em;
     background-color: #3a3a5e;
@@ -607,26 +607,26 @@
     transition: all 0.2s;
 }
 
-.st-chatu8-workflow-viz-toolbar .st-chatu8-btn:hover {
+.st-chatu8vi-workflow-viz-toolbar .st-chatu8vi-btn:hover {
     background-color: #4a4a7e;
     border-color: #4a90e2;
     color: #fff;
 }
 
-.st-chatu8-workflow-viz-stats {
+.st-chatu8vi-workflow-viz-stats {
     margin-left: auto;
     color: #888;
     font-size: 0.9em;
 }
 
 /* 主体布局 - 左右分栏 */
-.st-chatu8-workflow-viz-body {
+.st-chatu8vi-workflow-viz-body {
     flex: 1;
     display: flex;
     overflow: hidden;
 }
 
-.st-chatu8-workflow-viz-container {
+.st-chatu8vi-workflow-viz-container {
     flex: 1;
     overflow: auto;
     background-color: #0d0d1a;
@@ -637,50 +637,50 @@
     cursor: grab;
 }
 
-.st-chatu8-workflow-viz-container:active {
+.st-chatu8vi-workflow-viz-container:active {
     cursor: grabbing;
 }
 
-.st-chatu8-workflow-viz-svg-wrapper {
+.st-chatu8vi-workflow-viz-svg-wrapper {
     position: relative;
     min-width: 100%;
     min-height: 100%;
 }
 
-.st-chatu8-workflow-viz-svg {
+.st-chatu8vi-workflow-viz-svg {
     display: block;
     transition: transform 0.15s ease-out;
 }
 
-.st-chatu8-workflow-viz-node {
+.st-chatu8vi-workflow-viz-node {
     cursor: pointer;
     transition: filter 0.2s;
 }
 
-.st-chatu8-workflow-viz-node:hover {
+.st-chatu8vi-workflow-viz-node:hover {
     filter: brightness(1.2);
 }
 
-.st-chatu8-workflow-viz-node:hover rect {
+.st-chatu8vi-workflow-viz-node:hover rect {
     stroke-width: 3;
 }
 
-.st-chatu8-workflow-viz-node.selected rect {
+.st-chatu8vi-workflow-viz-node.selected rect {
     stroke-width: 4;
     filter: drop-shadow(0 0 8px currentColor);
 }
 
-.st-chatu8-workflow-viz-connection {
+.st-chatu8vi-workflow-viz-connection {
     transition: stroke 0.2s, stroke-width 0.2s;
 }
 
-.st-chatu8-workflow-viz-connection:hover {
+.st-chatu8vi-workflow-viz-connection:hover {
     stroke: #4a90e2;
     stroke-width: 3;
 }
 
 /* 属性面板样式 */
-.st-chatu8-workflow-viz-properties {
+.st-chatu8vi-workflow-viz-properties {
     width: 320px;
     min-width: 280px;
     background-color: #1a1a2e;
@@ -690,7 +690,7 @@
     flex-direction: column;
 }
 
-.st-chatu8-workflow-viz-properties-placeholder {
+.st-chatu8vi-workflow-viz-properties-placeholder {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -700,46 +700,46 @@
     gap: 10px;
 }
 
-.st-chatu8-workflow-viz-properties-placeholder i {
+.st-chatu8vi-workflow-viz-properties-placeholder i {
     font-size: 3rem;
 }
 
-.st-chatu8-workflow-viz-properties-placeholder p {
+.st-chatu8vi-workflow-viz-properties-placeholder p {
     margin: 0;
     font-size: 0.95em;
 }
 
-.st-chatu8-workflow-viz-properties-header {
+.st-chatu8vi-workflow-viz-properties-header {
     padding: 12px 16px;
     background-color: #252542;
     border-bottom: 1px solid #333;
 }
 
-.st-chatu8-workflow-viz-properties-header h4 {
+.st-chatu8vi-workflow-viz-properties-header h4 {
     margin: 0 0 4px 0;
     font-size: 1em;
     color: #4a90e2;
 }
 
-.st-chatu8-workflow-viz-properties-header .node-id {
+.st-chatu8vi-workflow-viz-properties-header .node-id {
     font-size: 0.85em;
     color: #888;
 }
 
-.st-chatu8-workflow-viz-properties-content {
+.st-chatu8vi-workflow-viz-properties-content {
     padding: 12px;
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
 
-.st-chatu8-workflow-viz-property-group {
+.st-chatu8vi-workflow-viz-property-group {
     display: flex;
     flex-direction: column;
     gap: 6px;
 }
 
-.st-chatu8-workflow-viz-property-group label {
+.st-chatu8vi-workflow-viz-property-group label {
     font-size: 0.85em;
     color: #aaa;
     display: flex;
@@ -747,7 +747,7 @@
     gap: 6px;
 }
 
-.st-chatu8-workflow-viz-property-group label .connection-badge {
+.st-chatu8vi-workflow-viz-property-group label .connection-badge {
     background-color: #4a90e2;
     color: white;
     padding: 1px 6px;
@@ -755,10 +755,10 @@
     font-size: 0.75em;
 }
 
-.st-chatu8-workflow-viz-property-group input[type="text"],
-.st-chatu8-workflow-viz-property-group input[type="number"],
-.st-chatu8-workflow-viz-property-group textarea,
-.st-chatu8-workflow-viz-property-group select {
+.st-chatu8vi-workflow-viz-property-group input[type="text"],
+.st-chatu8vi-workflow-viz-property-group input[type="number"],
+.st-chatu8vi-workflow-viz-property-group textarea,
+.st-chatu8vi-workflow-viz-property-group select {
     width: 100%;
     background-color: #2a2a3e;
     border: 1px solid #444;
@@ -769,30 +769,30 @@
     box-sizing: border-box;
 }
 
-.st-chatu8-workflow-viz-property-group input:focus,
-.st-chatu8-workflow-viz-property-group textarea:focus,
-.st-chatu8-workflow-viz-property-group select:focus {
+.st-chatu8vi-workflow-viz-property-group input:focus,
+.st-chatu8vi-workflow-viz-property-group textarea:focus,
+.st-chatu8vi-workflow-viz-property-group select:focus {
     outline: none;
     border-color: #4a90e2;
     box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
 }
 
-.st-chatu8-workflow-viz-property-group textarea {
+.st-chatu8vi-workflow-viz-property-group textarea {
     min-height: 60px;
     resize: vertical;
 }
 
-.st-chatu8-workflow-viz-property-group input[type="checkbox"] {
+.st-chatu8vi-workflow-viz-property-group input[type="checkbox"] {
     width: auto;
     margin-right: 8px;
 }
 
-.st-chatu8-workflow-viz-property-group .checkbox-wrapper {
+.st-chatu8vi-workflow-viz-property-group .checkbox-wrapper {
     display: flex;
     align-items: center;
 }
 
-.st-chatu8-workflow-viz-property-group .connection-display {
+.st-chatu8vi-workflow-viz-property-group .connection-display {
     background-color: #333;
     border: 1px dashed #555;
     border-radius: 6px;
@@ -804,7 +804,7 @@
 
 /* 移动端响应式样式 - 工作流可视化 */
 @media screen and (max-width: 768px) {
-    .st-chatu8-workflow-viz-dialog {
+    .st-chatu8vi-workflow-viz-dialog {
         width: 100vw;
         height: 100vh;
         height: 100dvh;
@@ -813,26 +813,26 @@
         border-radius: 0;
     }
 
-    .st-chatu8-workflow-viz-header {
+    .st-chatu8vi-workflow-viz-header {
         padding: 12px 16px;
     }
 
-    .st-chatu8-workflow-viz-header h3 {
+    .st-chatu8vi-workflow-viz-header h3 {
         font-size: 1em;
     }
 
-    .st-chatu8-workflow-viz-toolbar {
+    .st-chatu8vi-workflow-viz-toolbar {
         flex-wrap: wrap;
         gap: 8px;
         padding: 10px 12px;
     }
 
-    .st-chatu8-workflow-viz-toolbar .st-chatu8-btn {
+    .st-chatu8vi-workflow-viz-toolbar .st-chatu8vi-btn {
         padding: 6px 10px;
         font-size: 0.85em;
     }
 
-    .st-chatu8-workflow-viz-stats {
+    .st-chatu8vi-workflow-viz-stats {
         width: 100%;
         text-align: center;
         margin-left: 0;
@@ -840,19 +840,19 @@
     }
 
     /* 主体改为纵向布局 */
-    .st-chatu8-workflow-viz-body {
+    .st-chatu8vi-workflow-viz-body {
         flex-direction: column;
         position: relative;
     }
 
     /* 图表容器占满全部可用空间 */
-    .st-chatu8-workflow-viz-container {
+    .st-chatu8vi-workflow-viz-container {
         flex: 1;
         min-height: 0;
     }
 
     /* 属性面板改为全屏覆盖式 */
-    .st-chatu8-workflow-viz-properties {
+    .st-chatu8vi-workflow-viz-properties {
         position: absolute;
         top: 0;
         left: 0;
@@ -871,12 +871,12 @@
     }
 
     /* 显示状态 */
-    .st-chatu8-workflow-viz-properties.visible {
+    .st-chatu8vi-workflow-viz-properties.visible {
         display: flex;
     }
 
     /* 移动端属性面板关闭按钮 */
-    .st-chatu8-workflow-viz-properties-close-mobile {
+    .st-chatu8vi-workflow-viz-properties-close-mobile {
         position: absolute;
         top: 10px;
         right: 16px;
@@ -887,53 +887,53 @@
         padding: 5px;
     }
 
-    .st-chatu8-workflow-viz-properties-close-mobile:hover {
+    .st-chatu8vi-workflow-viz-properties-close-mobile:hover {
         color: #fff;
     }
 
-    .st-chatu8-workflow-viz-properties-placeholder {
+    .st-chatu8vi-workflow-viz-properties-placeholder {
         padding: 8px 0;
         gap: 6px;
     }
 
-    .st-chatu8-workflow-viz-properties-placeholder i {
+    .st-chatu8vi-workflow-viz-properties-placeholder i {
         font-size: 1.5rem;
     }
 
-    .st-chatu8-workflow-viz-properties-placeholder p {
+    .st-chatu8vi-workflow-viz-properties-placeholder p {
         font-size: 0.85em;
     }
 
-    .st-chatu8-workflow-viz-properties-header {
+    .st-chatu8vi-workflow-viz-properties-header {
         padding: 8px 12px;
     }
 
-    .st-chatu8-workflow-viz-properties-content {
+    .st-chatu8vi-workflow-viz-properties-content {
         padding: 10px;
         gap: 10px;
     }
 
     /* 节点尺寸在移动端可能需要保持小一些 */
-    .st-chatu8-workflow-viz-node text {
+    .st-chatu8vi-workflow-viz-node text {
         font-size: 0.9em;
     }
 }
 
 /* 占位符选择功能样式 */
-.st-chatu8-workflow-viz-input-wrapper {
+.st-chatu8vi-workflow-viz-input-wrapper {
     display: flex;
     gap: 6px;
     align-items: stretch;
 }
 
-.st-chatu8-workflow-viz-input-wrapper input,
-.st-chatu8-workflow-viz-input-wrapper textarea,
-.st-chatu8-workflow-viz-input-wrapper select {
+.st-chatu8vi-workflow-viz-input-wrapper input,
+.st-chatu8vi-workflow-viz-input-wrapper textarea,
+.st-chatu8vi-workflow-viz-input-wrapper select {
     flex: 1;
     min-width: 0;
 }
 
-.st-chatu8-placeholder-btn {
+.st-chatu8vi-placeholder-btn {
     flex-shrink: 0;
     width: 32px;
     height: auto;
@@ -949,13 +949,13 @@
     transition: background-color 0.2s, color 0.2s, border-color 0.2s;
 }
 
-.st-chatu8-placeholder-btn:hover {
+.st-chatu8vi-placeholder-btn:hover {
     background-color: #4a4a7e;
     color: #fff;
     border-color: #4a90e2;
 }
 
-.st-chatu8-placeholder-menu {
+.st-chatu8vi-placeholder-menu {
     background-color: #2a2a3e;
     border: 1px solid #444;
     border-radius: 8px;
@@ -966,7 +966,7 @@
     min-width: 200px;
 }
 
-.st-chatu8-placeholder-menu-item {
+.st-chatu8vi-placeholder-menu-item {
     display: flex;
     flex-direction: column;
     padding: 10px 14px;
@@ -975,61 +975,61 @@
     transition: background-color 0.15s;
 }
 
-.st-chatu8-placeholder-menu-item:last-child {
+.st-chatu8vi-placeholder-menu-item:last-child {
     border-bottom: none;
 }
 
-.st-chatu8-placeholder-menu-item:hover {
+.st-chatu8vi-placeholder-menu-item:hover {
     background-color: #3a3a5e;
 }
 
-.st-chatu8-placeholder-menu-item.recommended {
+.st-chatu8vi-placeholder-menu-item.recommended {
     background-color: rgba(74, 144, 226, 0.15);
     border-left: 3px solid #4a90e2;
 }
 
-.st-chatu8-placeholder-menu-item.recommended:hover {
+.st-chatu8vi-placeholder-menu-item.recommended:hover {
     background-color: rgba(74, 144, 226, 0.25);
 }
 
-.st-chatu8-placeholder-menu-item .placeholder-code {
+.st-chatu8vi-placeholder-menu-item .placeholder-code {
     font-family: monospace;
     font-size: 0.95em;
     color: #4a90e2;
     font-weight: 600;
 }
 
-.st-chatu8-placeholder-menu-item .placeholder-label {
+.st-chatu8vi-placeholder-menu-item .placeholder-label {
     font-size: 0.8em;
     color: #888;
     margin-top: 2px;
 }
 
 /* 清除占位符选项样式 */
-.st-chatu8-placeholder-menu-item.st-chatu8-placeholder-clear {
+.st-chatu8vi-placeholder-menu-item.st-chatu8vi-placeholder-clear {
     border-top: 2px solid #444;
     margin-top: 4px;
     padding-top: 12px;
 }
 
-.st-chatu8-placeholder-menu-item.st-chatu8-placeholder-clear:hover {
+.st-chatu8vi-placeholder-menu-item.st-chatu8vi-placeholder-clear:hover {
     background-color: rgba(231, 76, 60, 0.15);
 }
 
 /* 节点跳过功能样式 */
-.st-chatu8-workflow-viz-skip-section {
+.st-chatu8vi-workflow-viz-skip-section {
     padding: 12px 16px;
     background-color: #1e1e38;
     border-bottom: 1px solid #333;
 }
 
-.st-chatu8-workflow-viz-skip-group {
+.st-chatu8vi-workflow-viz-skip-group {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.st-chatu8-workflow-viz-skip-label {
+.st-chatu8vi-workflow-viz-skip-label {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -1039,19 +1039,19 @@
     color: #e0e0e0;
 }
 
-.st-chatu8-workflow-viz-skip-label input[type="checkbox"] {
+.st-chatu8vi-workflow-viz-skip-label input[type="checkbox"] {
     width: 18px;
     height: 18px;
     cursor: pointer;
     accent-color: #f39c12;
 }
 
-.st-chatu8-workflow-viz-skip-label input[type="checkbox"]:disabled {
+.st-chatu8vi-workflow-viz-skip-label input[type="checkbox"]:disabled {
     cursor: not-allowed;
     opacity: 0.5;
 }
 
-.st-chatu8-workflow-viz-skip-status {
+.st-chatu8vi-workflow-viz-skip-status {
     display: flex;
     align-items: center;
     gap: 6px;
@@ -1060,40 +1060,40 @@
     border-radius: 6px;
 }
 
-.st-chatu8-workflow-viz-skip-status i {
+.st-chatu8vi-workflow-viz-skip-status i {
     font-size: 0.9em;
 }
 
-.st-chatu8-workflow-viz-skip-status.can-skip {
+.st-chatu8vi-workflow-viz-skip-status.can-skip {
     background-color: rgba(46, 204, 113, 0.15);
     color: #2ecc71;
     border: 1px solid rgba(46, 204, 113, 0.3);
 }
 
-.st-chatu8-workflow-viz-skip-status.can-skip.type-match {
+.st-chatu8vi-workflow-viz-skip-status.can-skip.type-match {
     background-color: rgba(155, 89, 182, 0.15);
     color: #9b59b6;
     border: 1px solid rgba(155, 89, 182, 0.3);
 }
 
-.st-chatu8-workflow-viz-skip-status.not-skippable {
+.st-chatu8vi-workflow-viz-skip-status.not-skippable {
     background-color: rgba(149, 165, 166, 0.12);
     color: #95a5a6;
     border: 1px solid rgba(149, 165, 166, 0.25);
 }
 
-.st-chatu8-workflow-viz-skip-status.skipped {
+.st-chatu8vi-workflow-viz-skip-status.skipped {
     background-color: rgba(243, 156, 18, 0.15);
     color: #f39c12;
     border: 1px solid rgba(243, 156, 18, 0.3);
 }
 
 /* 被跳过节点的视觉样式 */
-.st-chatu8-workflow-viz-node.skipped {
+.st-chatu8vi-workflow-viz-node.skipped {
     opacity: 0.6;
 }
 
-.st-chatu8-workflow-viz-node.skipped text {
+.st-chatu8vi-workflow-viz-node.skipped text {
     text-decoration: line-through;
     opacity: 0.7;
 }
@@ -1101,7 +1101,7 @@
 /* ==================== 条目编辑弹窗样式 ==================== */
 
 /* 弹窗遮罩 */
-.st-chatu8-entry-edit-modal-backdrop {
+.st-chatu8vi-entry-edit-modal-backdrop {
     display: none;
     position: fixed;
     top: 0;
@@ -1115,15 +1115,15 @@
     align-items: center;
 }
 
-.st-chatu8-entry-edit-modal-backdrop[style*="block"] {
+.st-chatu8vi-entry-edit-modal-backdrop[style*="block"] {
     display: flex !important;
 }
 
 /* 弹窗容器 */
-.st-chatu8-entry-edit-modal {
-    background-color: var(--st-chatu8-bg-primary, #2c2c2c);
-    color: var(--st-chatu8-text-primary, #f0f0f0);
-    border: 1px solid var(--st-chatu8-border-color, #444);
+.st-chatu8vi-entry-edit-modal {
+    background-color: var(--st-chatu8vi-bg-primary, #2c2c2c);
+    color: var(--st-chatu8vi-text-primary, #f0f0f0);
+    border: 1px solid var(--st-chatu8vi-border-color, #444);
     border-radius: 12px;
     width: 90%;
     max-width: 600px;
@@ -1135,23 +1135,23 @@
 }
 
 /* 弹窗头部 */
-.st-chatu8-entry-edit-modal-header {
+.st-chatu8vi-entry-edit-modal-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 16px 20px;
-    background-color: var(--st-chatu8-bg-secondary, #252542);
-    border-bottom: 1px solid var(--st-chatu8-border-color, #333);
+    background-color: var(--st-chatu8vi-bg-secondary, #252542);
+    border-bottom: 1px solid var(--st-chatu8vi-border-color, #333);
 }
 
-.st-chatu8-entry-edit-modal-header h4 {
+.st-chatu8vi-entry-edit-modal-header h4 {
     margin: 0;
     font-size: 1.1rem;
     font-weight: 600;
-    color: var(--st-chatu8-text-primary, #e0e0e0);
+    color: var(--st-chatu8vi-text-primary, #e0e0e0);
 }
 
-.st-chatu8-entry-edit-modal-close {
+.st-chatu8vi-entry-edit-modal-close {
     font-size: 1.8rem;
     color: #888;
     cursor: pointer;
@@ -1160,12 +1160,12 @@
     padding: 0 4px;
 }
 
-.st-chatu8-entry-edit-modal-close:hover {
+.st-chatu8vi-entry-edit-modal-close:hover {
     color: #fff;
 }
 
 /* 弹窗主体 */
-.st-chatu8-entry-edit-modal-body {
+.st-chatu8vi-entry-edit-modal-body {
     flex: 1;
     overflow-y: auto;
     padding: 20px;
@@ -1175,107 +1175,107 @@
 }
 
 /* 弹窗字段 */
-.st-chatu8-modal-field {
+.st-chatu8vi-modal-field {
     display: flex;
     flex-direction: column;
     gap: 6px;
 }
 
-.st-chatu8-modal-field label {
+.st-chatu8vi-modal-field label {
     font-size: 0.9rem;
-    color: var(--st-chatu8-text-secondary, #aaa);
+    color: var(--st-chatu8vi-text-secondary, #aaa);
     font-weight: 500;
 }
 
-.st-chatu8-modal-field .st-chatu8-text-input,
-.st-chatu8-modal-field .st-chatu8-select,
-.st-chatu8-modal-field .st-chatu8-textarea {
+.st-chatu8vi-modal-field .st-chatu8vi-text-input,
+.st-chatu8vi-modal-field .st-chatu8vi-select,
+.st-chatu8vi-modal-field .st-chatu8vi-textarea {
     width: 100%;
     box-sizing: border-box;
 }
 
 /* 字段行 - 水平排列 */
-.st-chatu8-modal-field-row {
+.st-chatu8vi-modal-field-row {
     display: flex;
     gap: 16px;
     flex-wrap: wrap;
 }
 
-.st-chatu8-modal-field-row .st-chatu8-modal-field {
+.st-chatu8vi-modal-field-row .st-chatu8vi-modal-field {
     flex: 1;
     min-width: 120px;
 }
 
 /* 开关字段 */
-.st-chatu8-modal-toggle-field {
+.st-chatu8vi-modal-toggle-field {
     flex: 0 0 auto !important;
     min-width: auto !important;
     align-items: center;
 }
 
-.st-chatu8-modal-toggle-field .st-chatu8-toggle {
+.st-chatu8vi-modal-toggle-field .st-chatu8vi-toggle {
     margin-top: 4px;
 }
 
 /* 弹窗底部 */
-.st-chatu8-entry-edit-modal-footer {
+.st-chatu8vi-entry-edit-modal-footer {
     display: flex;
     justify-content: flex-end;
     gap: 12px;
     padding: 16px 20px;
-    background-color: var(--st-chatu8-bg-secondary, #252542);
-    border-top: 1px solid var(--st-chatu8-border-color, #333);
+    background-color: var(--st-chatu8vi-bg-secondary, #252542);
+    border-top: 1px solid var(--st-chatu8vi-border-color, #333);
 }
 
 /* 弹窗内的输入框样式 - 继承设置界面样式 */
-.st-chatu8-entry-edit-modal .st-chatu8-text-input,
-.st-chatu8-entry-edit-modal .st-chatu8-textarea {
+.st-chatu8vi-entry-edit-modal .st-chatu8vi-text-input,
+.st-chatu8vi-entry-edit-modal .st-chatu8vi-textarea {
     width: 100%;
-    background: var(--st-chatu8-bg-secondary);
-    border: 1px solid var(--st-chatu8-border-color);
-    color: var(--st-chatu8-text-primary);
+    background: var(--st-chatu8vi-bg-secondary);
+    border: 1px solid var(--st-chatu8vi-border-color);
+    color: var(--st-chatu8vi-text-primary);
     border-radius: 6px;
     padding: 10px;
     box-sizing: border-box;
 }
 
-.st-chatu8-entry-edit-modal .st-chatu8-text-input:focus,
-.st-chatu8-entry-edit-modal .st-chatu8-textarea:focus {
+.st-chatu8vi-entry-edit-modal .st-chatu8vi-text-input:focus,
+.st-chatu8vi-entry-edit-modal .st-chatu8vi-textarea:focus {
     outline: none;
-    border-color: var(--st-chatu8-accent-primary);
+    border-color: var(--st-chatu8vi-accent-primary);
     box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.15);
 }
 
-.st-chatu8-entry-edit-modal .st-chatu8-textarea {
+.st-chatu8vi-entry-edit-modal .st-chatu8vi-textarea {
     resize: vertical;
     min-height: 120px;
 }
 
 /* 弹窗内的下拉框样式 */
-.st-chatu8-entry-edit-modal .st-chatu8-select {
-    background: var(--st-chatu8-dropdown-bg, var(--st-chatu8-bg-tertiary));
-    border: 1px solid var(--st-chatu8-border-color);
-    color: var(--st-chatu8-dropdown-text, var(--st-chatu8-text-primary));
+.st-chatu8vi-entry-edit-modal .st-chatu8vi-select {
+    background: var(--st-chatu8vi-dropdown-bg, var(--st-chatu8vi-bg-tertiary));
+    border: 1px solid var(--st-chatu8vi-border-color);
+    color: var(--st-chatu8vi-dropdown-text, var(--st-chatu8vi-text-primary));
     border-radius: 6px;
     padding: 8px 12px;
     width: 100%;
 }
 
-.st-chatu8-entry-edit-modal .st-chatu8-select:focus {
+.st-chatu8vi-entry-edit-modal .st-chatu8vi-select:focus {
     outline: none;
-    border-color: var(--st-chatu8-accent-primary);
+    border-color: var(--st-chatu8vi-accent-primary);
     box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
 }
 
 /* 弹窗内的开关样式 */
-.st-chatu8-entry-edit-modal .st-chatu8-toggle {
+.st-chatu8vi-entry-edit-modal .st-chatu8vi-toggle {
     position: relative;
     display: inline-block;
     width: 50px;
     height: 28px;
 }
 
-.st-chatu8-entry-edit-modal .st-chatu8-toggle input {
+.st-chatu8vi-entry-edit-modal .st-chatu8vi-toggle input {
     position: absolute;
     opacity: 0;
     width: 100%;
@@ -1287,19 +1287,19 @@
     margin: 0;
 }
 
-.st-chatu8-entry-edit-modal .st-chatu8-toggle .st-chatu8-slider {
+.st-chatu8vi-entry-edit-modal .st-chatu8vi-toggle .st-chatu8vi-slider {
     position: absolute;
     cursor: pointer;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: var(--st-chatu8-bg-tertiary);
+    background-color: var(--st-chatu8vi-bg-tertiary);
     transition: background-color 0.3s ease;
     border-radius: 28px;
 }
 
-.st-chatu8-entry-edit-modal .st-chatu8-toggle .st-chatu8-slider:before {
+.st-chatu8vi-entry-edit-modal .st-chatu8vi-toggle .st-chatu8vi-slider:before {
     position: absolute;
     content: "";
     height: 20px;
@@ -1311,19 +1311,19 @@
     border-radius: 50%;
 }
 
-.st-chatu8-entry-edit-modal .st-chatu8-toggle input:checked+.st-chatu8-slider {
-    background-color: var(--st-chatu8-accent-primary);
+.st-chatu8vi-entry-edit-modal .st-chatu8vi-toggle input:checked+.st-chatu8vi-slider {
+    background-color: var(--st-chatu8vi-accent-primary);
 }
 
-.st-chatu8-entry-edit-modal .st-chatu8-toggle input:checked+.st-chatu8-slider:before {
+.st-chatu8vi-entry-edit-modal .st-chatu8vi-toggle input:checked+.st-chatu8vi-slider:before {
     transform: translateX(22px);
 }
 
 /* 弹窗按钮样式 - 继承设置界面样式 */
-.st-chatu8-entry-edit-modal .st-chatu8-btn {
-    background-color: var(--st-chatu8-bg-tertiary);
-    border: 1px solid var(--st-chatu8-border-color);
-    color: var(--st-chatu8-text-primary);
+.st-chatu8vi-entry-edit-modal .st-chatu8vi-btn {
+    background-color: var(--st-chatu8vi-bg-tertiary);
+    border: 1px solid var(--st-chatu8vi-border-color);
+    color: var(--st-chatu8vi-text-primary);
     padding: 10px 16px;
     border-radius: 6px;
     cursor: pointer;
@@ -1331,35 +1331,35 @@
     font-size: 0.95rem;
 }
 
-.st-chatu8-entry-edit-modal .st-chatu8-btn:hover {
-    background-color: var(--st-chatu8-accent-secondary);
-    border-color: var(--st-chatu8-accent-primary);
-    color: var(--st-chatu8-text-highlight, white);
+.st-chatu8vi-entry-edit-modal .st-chatu8vi-btn:hover {
+    background-color: var(--st-chatu8vi-accent-secondary);
+    border-color: var(--st-chatu8vi-accent-primary);
+    color: var(--st-chatu8vi-text-highlight, white);
 }
 
 /* 主要按钮样式 */
-.st-chatu8-entry-edit-modal .st-chatu8-btn-primary {
-    background-color: var(--st-chatu8-accent-primary);
-    border-color: var(--st-chatu8-accent-primary);
+.st-chatu8vi-entry-edit-modal .st-chatu8vi-btn-primary {
+    background-color: var(--st-chatu8vi-accent-primary);
+    border-color: var(--st-chatu8vi-accent-primary);
     color: white;
 }
 
-.st-chatu8-entry-edit-modal .st-chatu8-btn-primary:hover {
-    background-color: var(--st-chatu8-accent-secondary);
-    border-color: var(--st-chatu8-accent-secondary);
+.st-chatu8vi-entry-edit-modal .st-chatu8vi-btn-primary:hover {
+    background-color: var(--st-chatu8vi-accent-secondary);
+    border-color: var(--st-chatu8vi-accent-secondary);
 }
 
 /* 响应式适配 - 移动端全屏模式 */
 @media screen and (max-width: 768px) {
 
     /* 遮罩层全屏 */
-    .st-chatu8-entry-edit-modal-backdrop {
+    .st-chatu8vi-entry-edit-modal-backdrop {
         background-color: rgba(0, 0, 0, 0.95);
         align-items: stretch;
     }
 
     /* 弹窗改为全屏 */
-    .st-chatu8-entry-edit-modal {
+    .st-chatu8vi-entry-edit-modal {
         width: 100vw !important;
         height: 100vh !important;
         height: 100dvh !important;
@@ -1371,7 +1371,7 @@
     }
 
     /* 头部样式调整 */
-    .st-chatu8-entry-edit-modal-header {
+    .st-chatu8vi-entry-edit-modal-header {
         padding: 12px 16px;
         position: sticky;
         top: 0;
@@ -1379,17 +1379,17 @@
         flex-shrink: 0;
     }
 
-    .st-chatu8-entry-edit-modal-header h4 {
+    .st-chatu8vi-entry-edit-modal-header h4 {
         font-size: 1rem;
     }
 
-    .st-chatu8-entry-edit-modal-close {
+    .st-chatu8vi-entry-edit-modal-close {
         font-size: 2rem;
         padding: 0 8px;
     }
 
     /* 主体内容区域 */
-    .st-chatu8-entry-edit-modal-body {
+    .st-chatu8vi-entry-edit-modal-body {
         flex: 1;
         padding: 16px;
         overflow-y: auto;
@@ -1397,24 +1397,24 @@
     }
 
     /* 字段行改为纵向排列 */
-    .st-chatu8-modal-field-row {
+    .st-chatu8vi-modal-field-row {
         flex-direction: column;
         gap: 12px;
     }
 
-    .st-chatu8-modal-field-row .st-chatu8-modal-field {
+    .st-chatu8vi-modal-field-row .st-chatu8vi-modal-field {
         min-width: 100%;
     }
 
     /* 开关字段在移动端也占满宽度 */
-    .st-chatu8-modal-toggle-field {
+    .st-chatu8vi-modal-toggle-field {
         flex-direction: row !important;
         justify-content: space-between;
         align-items: center;
     }
 
     /* 底部按钮区域 */
-    .st-chatu8-entry-edit-modal-footer {
+    .st-chatu8vi-entry-edit-modal-footer {
         padding: 12px 16px;
         position: sticky;
         bottom: 0;
@@ -1423,38 +1423,38 @@
         flex-shrink: 0;
     }
 
-    .st-chatu8-entry-edit-modal-footer .st-chatu8-btn {
+    .st-chatu8vi-entry-edit-modal-footer .st-chatu8vi-btn {
         flex: 1;
         padding: 12px 16px;
         font-size: 1rem;
     }
 
     /* 输入框和文本域增大触摸区域 */
-    .st-chatu8-entry-edit-modal .st-chatu8-text-input,
-    .st-chatu8-entry-edit-modal .st-chatu8-select {
+    .st-chatu8vi-entry-edit-modal .st-chatu8vi-text-input,
+    .st-chatu8vi-entry-edit-modal .st-chatu8vi-select {
         padding: 12px;
         font-size: 16px;
         /* 防止 iOS 自动缩放 */
     }
 
-    .st-chatu8-entry-edit-modal .st-chatu8-textarea {
+    .st-chatu8vi-entry-edit-modal .st-chatu8vi-textarea {
         min-height: 150px;
         font-size: 16px;
         /* 防止 iOS 自动缩放 */
     }
 
     /* 开关控件增大 */
-    .st-chatu8-entry-edit-modal .st-chatu8-toggle {
+    .st-chatu8vi-entry-edit-modal .st-chatu8vi-toggle {
         width: 56px;
         height: 32px;
     }
 
-    .st-chatu8-entry-edit-modal .st-chatu8-toggle .st-chatu8-slider:before {
+    .st-chatu8vi-entry-edit-modal .st-chatu8vi-toggle .st-chatu8vi-slider:before {
         height: 24px;
         width: 24px;
     }
 
-    .st-chatu8-entry-edit-modal .st-chatu8-toggle input:checked+.st-chatu8-slider:before {
+    .st-chatu8vi-entry-edit-modal .st-chatu8vi-toggle input:checked+.st-chatu8vi-slider:before {
         transform: translateX(24px);
     }
 }
@@ -1463,55 +1463,55 @@
 /* ==================== 导入选择弹窗样式 ==================== */
 
 /* 工具栏 */
-.st-chatu8-import-toolbar {
+.st-chatu8vi-import-toolbar {
     display: flex;
     gap: 10px;
     flex-direction: row !important;
 }
 
 /* 列表容器 */
-.st-chatu8-import-list {
+.st-chatu8vi-import-list {
     max-height: 400px;
     overflow-y: auto;
 }
 
 /* 类型分组 */
-.st-chatu8-import-type-group {
+.st-chatu8vi-import-type-group {
     margin-bottom: 16px;
 }
 
-.st-chatu8-import-type-group:last-child {
+.st-chatu8vi-import-type-group:last-child {
     margin-bottom: 0;
 }
 
 /* 类型标题 */
-.st-chatu8-import-type-header {
+.st-chatu8vi-import-type-header {
     margin: 0 0 10px 0;
     padding-bottom: 8px;
-    border-bottom: 1px solid var(--st-chatu8-border-color, #444);
+    border-bottom: 1px solid var(--st-chatu8vi-border-color, #444);
     font-size: 1rem;
     font-weight: 600;
-    color: var(--st-chatu8-accent-primary, #4a90e2);
+    color: var(--st-chatu8vi-accent-primary, #4a90e2);
 }
 
-.st-chatu8-import-count {
+.st-chatu8vi-import-count {
     font-weight: normal;
-    color: var(--st-chatu8-text-secondary, #888);
+    color: var(--st-chatu8vi-text-secondary, #888);
     font-size: 0.9rem;
 }
 
 /* 条目项 */
-.st-chatu8-import-item {
+.st-chatu8vi-import-item {
     padding: 8px 0;
-    border-bottom: 1px solid var(--st-chatu8-border-color, #333);
+    border-bottom: 1px solid var(--st-chatu8vi-border-color, #333);
 }
 
-.st-chatu8-import-item:last-child {
+.st-chatu8vi-import-item:last-child {
     border-bottom: none;
 }
 
 /* 条目标签 */
-.st-chatu8-import-label {
+.st-chatu8vi-import-label {
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -1519,35 +1519,35 @@
 }
 
 /* 复选框 */
-.st-chatu8-import-checkbox {
+.st-chatu8vi-import-checkbox {
     width: 18px;
     height: 18px;
     cursor: pointer;
-    accent-color: var(--st-chatu8-accent-primary, #4a90e2);
+    accent-color: var(--st-chatu8vi-accent-primary, #4a90e2);
 }
 
 /* 条目名称 */
-.st-chatu8-import-name {
+.st-chatu8vi-import-name {
     flex: 1;
     font-size: 0.95rem;
 }
 
 /* 移动端适配 */
 @media screen and (max-width: 768px) {
-    .st-chatu8-import-list {
+    .st-chatu8vi-import-list {
         max-height: none;
     }
 
-    .st-chatu8-import-checkbox {
+    .st-chatu8vi-import-checkbox {
         width: 22px;
         height: 22px;
     }
 
-    .st-chatu8-import-item {
+    .st-chatu8vi-import-item {
         padding: 12px 0;
     }
 
-    .st-chatu8-import-name {
+    .st-chatu8vi-import-name {
         font-size: 1rem;
     }
 }
@@ -1556,78 +1556,78 @@
 /* ==================== 通用弹出框样式 ==================== */
 
 /* 弹出框模态框 */
-#st-chatu8-settings .st-chatu8-popup-modal,
-.st-chatu8-popup-modal {
+#st-chatu8vi-settings .st-chatu8vi-popup-modal,
+.st-chatu8vi-popup-modal {
     max-width: 550px;
     width: 90%;
     max-height: 80vh;
     overflow-y: auto;
 }
 
-#st-chatu8-settings .st-chatu8-popup-modal-large,
-.st-chatu8-popup-modal-large {
+#st-chatu8vi-settings .st-chatu8vi-popup-modal-large,
+.st-chatu8vi-popup-modal-large {
     max-width: 700px;
 }
 
 /* 弹出框标题 */
-#st-chatu8-settings .st-chatu8-popup-title,
-.st-chatu8-popup-title {
+#st-chatu8vi-settings .st-chatu8vi-popup-title,
+.st-chatu8vi-popup-title {
     margin: 0 0 16px 0;
     padding-bottom: 12px;
-    border-bottom: 1px solid var(--st-chatu8-border-color);
-    color: var(--st-chatu8-text-primary);
+    border-bottom: 1px solid var(--st-chatu8vi-border-color);
+    color: var(--st-chatu8vi-text-primary);
     font-size: 1.15rem;
     font-weight: 600;
 }
 
 /* 弹出框描述 */
-#st-chatu8-settings .st-chatu8-popup-description,
-.st-chatu8-popup-description {
+#st-chatu8vi-settings .st-chatu8vi-popup-description,
+.st-chatu8vi-popup-description {
     margin: 0 0 12px 0;
-    color: var(--st-chatu8-text-secondary);
+    color: var(--st-chatu8vi-text-secondary);
     font-size: 0.9rem;
     line-height: 1.5;
 }
 
 /* 弹出框内容区域 */
-#st-chatu8-settings .st-chatu8-popup-content,
-.st-chatu8-popup-content {
+#st-chatu8vi-settings .st-chatu8vi-popup-content,
+.st-chatu8vi-popup-content {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
 /* 代码风格文本框 */
-#st-chatu8-settings .st-chatu8-popup-code-textarea,
-.st-chatu8-popup-code-textarea {
+#st-chatu8vi-settings .st-chatu8vi-popup-code-textarea,
+.st-chatu8vi-popup-code-textarea {
     font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
     font-size: 13px;
 }
 
 /* 主要按钮样式 */
-#st-chatu8-settings .st-chatu8-btn-primary,
-.st-chatu8-btn-primary {
-    background: var(--st-chatu8-accent-primary);
-    border-color: var(--st-chatu8-accent-primary);
-    color: var(--st-chatu8-text-highlight, white);
+#st-chatu8vi-settings .st-chatu8vi-btn-primary,
+.st-chatu8vi-btn-primary {
+    background: var(--st-chatu8vi-accent-primary);
+    border-color: var(--st-chatu8vi-accent-primary);
+    color: var(--st-chatu8vi-text-highlight, white);
 }
 
-#st-chatu8-settings .st-chatu8-btn-primary:hover,
-.st-chatu8-btn-primary:hover {
-    background: var(--st-chatu8-accent-secondary);
-    border-color: var(--st-chatu8-accent-secondary);
+#st-chatu8vi-settings .st-chatu8vi-btn-primary:hover,
+.st-chatu8vi-btn-primary:hover {
+    background: var(--st-chatu8vi-accent-secondary);
+    border-color: var(--st-chatu8vi-accent-secondary);
 }
 
 /* 成功按钮样式 */
-#st-chatu8-settings .st-chatu8-btn-success,
-.st-chatu8-btn-success {
+#st-chatu8vi-settings .st-chatu8vi-btn-success,
+.st-chatu8vi-btn-success {
     background: #28a745;
     border-color: #28a745;
     color: white;
 }
 
-#st-chatu8-settings .st-chatu8-btn-success:hover,
-.st-chatu8-btn-success:hover {
+#st-chatu8vi-settings .st-chatu8vi-btn-success:hover,
+.st-chatu8vi-btn-success:hover {
     background: #218838;
     border-color: #1e7e34;
 }
@@ -1635,18 +1635,18 @@
 /* ==================== 图片上传区域样式 ==================== */
 
 /* 上传区域容器 */
-#st-chatu8-settings .st-chatu8-popup-upload-section,
-.st-chatu8-popup-upload-section {
+#st-chatu8vi-settings .st-chatu8vi-popup-upload-section,
+.st-chatu8vi-popup-upload-section {
     margin: 16px 0;
     padding: 14px;
-    border: 1px dashed var(--st-chatu8-border-color);
-    border-radius: var(--st-chatu8-border-radius, 8px);
-    background: var(--st-chatu8-bg-secondary);
+    border: 1px dashed var(--st-chatu8vi-border-color);
+    border-radius: var(--st-chatu8vi-border-radius, 8px);
+    background: var(--st-chatu8vi-bg-secondary);
 }
 
 /* 上传头部 */
-#st-chatu8-settings .st-chatu8-popup-upload-header,
-.st-chatu8-popup-upload-header {
+#st-chatu8vi-settings .st-chatu8vi-popup-upload-header,
+.st-chatu8vi-popup-upload-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1654,22 +1654,22 @@
 }
 
 /* 上传标签 */
-#st-chatu8-settings .st-chatu8-popup-upload-label,
-.st-chatu8-popup-upload-label {
+#st-chatu8vi-settings .st-chatu8vi-popup-upload-label,
+.st-chatu8vi-popup-upload-label {
     font-size: 0.9rem;
-    color: var(--st-chatu8-text-secondary);
+    color: var(--st-chatu8vi-text-secondary);
 }
 
 /* 上传按钮 */
-#st-chatu8-settings .st-chatu8-popup-upload-btn,
-.st-chatu8-popup-upload-btn {
+#st-chatu8vi-settings .st-chatu8vi-popup-upload-btn,
+.st-chatu8vi-popup-upload-btn {
     padding: 6px 12px;
     font-size: 0.85rem;
 }
 
 /* 图片预览容器 */
-#st-chatu8-settings .st-chatu8-popup-image-preview,
-.st-chatu8-popup-image-preview {
+#st-chatu8vi-settings .st-chatu8vi-popup-image-preview,
+.st-chatu8vi-popup-image-preview {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -1677,10 +1677,10 @@
 }
 
 /* 空提示 */
-#st-chatu8-settings .st-chatu8-popup-empty-hint,
-.st-chatu8-popup-empty-hint {
+#st-chatu8vi-settings .st-chatu8vi-popup-empty-hint,
+.st-chatu8vi-popup-empty-hint {
     font-size: 0.85rem;
-    color: var(--st-chatu8-text-secondary);
+    color: var(--st-chatu8vi-text-secondary);
     opacity: 0.6;
     text-align: center;
     width: 100%;
@@ -1688,8 +1688,8 @@
 }
 
 /* 图片项容器 */
-#st-chatu8-settings .st-chatu8-popup-image-item,
-.st-chatu8-popup-image-item {
+#st-chatu8vi-settings .st-chatu8vi-popup-image-item,
+.st-chatu8vi-popup-image-item {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1697,27 +1697,27 @@
 }
 
 /* 图片包装器 */
-#st-chatu8-settings .st-chatu8-popup-image-wrapper,
-.st-chatu8-popup-image-wrapper {
+#st-chatu8vi-settings .st-chatu8vi-popup-image-wrapper,
+.st-chatu8vi-popup-image-wrapper {
     position: relative;
     width: 64px;
     height: 64px;
     border-radius: 6px;
     overflow: hidden;
-    border: 1px solid var(--st-chatu8-border-color);
-    background: var(--st-chatu8-bg-tertiary);
+    border: 1px solid var(--st-chatu8vi-border-color);
+    background: var(--st-chatu8vi-bg-tertiary);
 }
 
-#st-chatu8-settings .st-chatu8-popup-image-wrapper img,
-.st-chatu8-popup-image-wrapper img {
+#st-chatu8vi-settings .st-chatu8vi-popup-image-wrapper img,
+.st-chatu8vi-popup-image-wrapper img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
 /* 图片删除按钮 */
-#st-chatu8-settings .st-chatu8-popup-image-delete,
-.st-chatu8-popup-image-delete {
+#st-chatu8vi-settings .st-chatu8vi-popup-image-delete,
+.st-chatu8vi-popup-image-delete {
     position: absolute;
     top: 2px;
     right: 2px;
@@ -1725,8 +1725,8 @@
     height: 20px;
     border: none;
     border-radius: 50%;
-    background: var(--st-chatu8-danger-primary);
-    color: var(--st-chatu8-danger-text, white);
+    background: var(--st-chatu8vi-danger-primary);
+    color: var(--st-chatu8vi-danger-text, white);
     font-size: 14px;
     line-height: 1;
     cursor: pointer;
@@ -1737,36 +1737,36 @@
     transition: opacity 0.2s;
 }
 
-#st-chatu8-settings .st-chatu8-popup-image-delete:hover,
-.st-chatu8-popup-image-delete:hover {
-    background: var(--st-chatu8-danger-secondary);
+#st-chatu8vi-settings .st-chatu8vi-popup-image-delete:hover,
+.st-chatu8vi-popup-image-delete:hover {
+    background: var(--st-chatu8vi-danger-secondary);
 }
 
 /* 图片名称输入框 */
-#st-chatu8-settings .st-chatu8-popup-image-name,
-.st-chatu8-popup-image-name {
+#st-chatu8vi-settings .st-chatu8vi-popup-image-name,
+.st-chatu8vi-popup-image-name {
     width: 64px;
     padding: 4px 6px;
-    border: 1px solid var(--st-chatu8-border-color);
+    border: 1px solid var(--st-chatu8vi-border-color);
     border-radius: 4px;
-    background: var(--st-chatu8-bg-tertiary);
-    color: var(--st-chatu8-text-primary);
+    background: var(--st-chatu8vi-bg-tertiary);
+    color: var(--st-chatu8vi-text-primary);
     font-size: 0.75rem;
     text-align: center;
     outline: none;
     transition: border-color 0.2s;
 }
 
-#st-chatu8-settings .st-chatu8-popup-image-name:focus,
-.st-chatu8-popup-image-name:focus {
-    border-color: var(--st-chatu8-accent-primary);
+#st-chatu8vi-settings .st-chatu8vi-popup-image-name:focus,
+.st-chatu8vi-popup-image-name:focus {
+    border-color: var(--st-chatu8vi-accent-primary);
 }
 
 /* 图片计数 */
-#st-chatu8-settings .st-chatu8-popup-image-count,
-.st-chatu8-popup-image-count {
+#st-chatu8vi-settings .st-chatu8vi-popup-image-count,
+.st-chatu8vi-popup-image-count {
     font-size: 0.8rem;
-    color: var(--st-chatu8-accent-primary);
+    color: var(--st-chatu8vi-accent-primary);
     width: 100%;
     text-align: right;
     margin-top: 6px;
@@ -1775,8 +1775,8 @@
 /* ==================== 移动端响应式 ==================== */
 @media screen and (max-width: 768px) {
 
-    #st-chatu8-settings .st-chatu8-popup-modal,
-    .st-chatu8-popup-modal {
+    #st-chatu8vi-settings .st-chatu8vi-popup-modal,
+    .st-chatu8vi-popup-modal {
         width: 100vw !important;
         height: 100vh !important;
         height: 100dvh !important;
@@ -1785,20 +1785,20 @@
         border-radius: 0 !important;
     }
 
-    #st-chatu8-settings .st-chatu8-popup-upload-header,
-    .st-chatu8-popup-upload-header {
+    #st-chatu8vi-settings .st-chatu8vi-popup-upload-header,
+    .st-chatu8vi-popup-upload-header {
         flex-wrap: wrap;
         gap: 8px;
     }
 
-    #st-chatu8-settings .st-chatu8-popup-image-wrapper,
-    .st-chatu8-popup-image-wrapper {
+    #st-chatu8vi-settings .st-chatu8vi-popup-image-wrapper,
+    .st-chatu8vi-popup-image-wrapper {
         width: 56px;
         height: 56px;
     }
 
-    #st-chatu8-settings .st-chatu8-popup-image-name,
-    .st-chatu8-popup-image-name {
+    #st-chatu8vi-settings .st-chatu8vi-popup-image-name,
+    .st-chatu8vi-popup-image-name {
         width: 56px;
         font-size: 0.7rem;
     }
@@ -1809,7 +1809,7 @@
 @media screen and (max-width: 768px) {
 
     /* Vibe 生成器对话框 - 移动端全屏 */
-    .st-chatu8-vibe-generator-dialog {
+    .st-chatu8vi-vibe-generator-dialog {
         width: 100vw !important;
         height: 100vh !important;
         height: 100dvh !important;
@@ -1820,7 +1820,7 @@
     }
 
     /* Vibe 生成器主体内容 - 启用滚动 */
-    .st-chatu8-vibe-generator-dialog .st-chatu8-workflow-viz-body {
+    .st-chatu8vi-vibe-generator-dialog .st-chatu8vi-workflow-viz-body {
         overflow-y: auto !important;
         overflow-x: hidden !important;
         -webkit-overflow-scrolling: touch;
@@ -1829,81 +1829,81 @@
     }
 
     /* Vibe 生成器内容容器 */
-    .st-chatu8-vibe-generator-content {
+    .st-chatu8vi-vibe-generator-content {
         width: 100%;
         max-width: 100%;
     }
 
     /* 调整标题字体大小 */
-    .st-chatu8-vibe-generator-dialog .st-chatu8-workflow-viz-header h3 {
+    .st-chatu8vi-vibe-generator-dialog .st-chatu8vi-workflow-viz-header h3 {
         font-size: 1em;
     }
 
     /* 预设控制按钮 - 移动端优化 */
-    .st-chatu8-vibe-generator-dialog .st-chatu8-profile-controls {
+    .st-chatu8vi-vibe-generator-dialog .st-chatu8vi-profile-controls {
         flex-wrap: wrap;
         gap: 8px;
     }
 
-    .st-chatu8-vibe-generator-dialog .st-chatu8-profile-controls select {
+    .st-chatu8vi-vibe-generator-dialog .st-chatu8vi-profile-controls select {
         flex: 1 1 100%;
         min-width: 100%;
     }
 
-    .st-chatu8-vibe-generator-dialog .st-chatu8-icon-btn {
+    .st-chatu8vi-vibe-generator-dialog .st-chatu8vi-icon-btn {
         padding: 10px 12px;
         font-size: 1rem;
     }
 
     /* 图片预览容器 - 移动端优化 */
-    .st-chatu8-vibe-generator-dialog .st-chatu8-image-preview-container {
+    .st-chatu8vi-vibe-generator-dialog .st-chatu8vi-image-preview-container {
         max-height: 250px;
     }
 
     /* 图片控制按钮 - 移动端堆叠 */
-    .st-chatu8-vibe-generator-dialog .st-chatu8-image-controls {
+    .st-chatu8vi-vibe-generator-dialog .st-chatu8vi-image-controls {
         display: flex;
         flex-direction: column;
         gap: 8px;
     }
 
-    .st-chatu8-vibe-generator-dialog .st-chatu8-image-controls .st-chatu8-btn {
+    .st-chatu8vi-vibe-generator-dialog .st-chatu8vi-image-controls .st-chatu8vi-btn {
         width: 100%;
         padding: 12px;
         font-size: 1rem;
     }
 
     /* 范围滑块容器 - 移动端优化 */
-    .st-chatu8-vibe-generator-dialog .st-chatu8-range-container {
+    .st-chatu8vi-vibe-generator-dialog .st-chatu8vi-range-container {
         flex-direction: column;
         gap: 8px;
     }
 
-    .st-chatu8-vibe-generator-dialog .st-chatu8-range-slider,
-    .st-chatu8-vibe-generator-dialog .st-chatu8-range-input {
+    .st-chatu8vi-vibe-generator-dialog .st-chatu8vi-range-slider,
+    .st-chatu8vi-vibe-generator-dialog .st-chatu8vi-range-input {
         width: 100%;
     }
 
     /* 主要操作按钮 - 移动端优化 */
-    .st-chatu8-vibe-generator-dialog #vibe-submit-btn,
-    .st-chatu8-vibe-generator-dialog #vibe-download-btn {
+    .st-chatu8vi-vibe-generator-dialog #vibe-submit-btn,
+    .st-chatu8vi-vibe-generator-dialog #vibe-download-btn {
         padding: 14px 1rem !important;
         font-size: 1.1rem !important;
     }
 
     /* 状态提示区域 - 移动端优化 */
-    .st-chatu8-vibe-generator-dialog #vibe-status {
+    .st-chatu8vi-vibe-generator-dialog #vibe-status {
         font-size: 0.95rem;
         padding: 12px;
     }
 
     /* 字段标签 - 移动端优化 */
-    .st-chatu8-vibe-generator-dialog .st-chatu8-field label {
+    .st-chatu8vi-vibe-generator-dialog .st-chatu8vi-field label {
         font-size: 1rem;
     }
 
     /* 选择框 - 移动端优化 */
-    .st-chatu8-vibe-generator-dialog .st-chatu8-select {
+    .st-chatu8vi-vibe-generator-dialog .st-chatu8vi-select {
         padding: 12px;
         font-size: 1rem;
     }
@@ -1911,15 +1911,15 @@
 
 /* 小屏幕设备额外优化 (手机竖屏) */
 @media screen and (max-width: 480px) {
-    .st-chatu8-vibe-generator-dialog .st-chatu8-workflow-viz-body {
+    .st-chatu8vi-vibe-generator-dialog .st-chatu8vi-workflow-viz-body {
         padding: 0.75rem !important;
     }
 
-    .st-chatu8-vibe-generator-dialog .st-chatu8-field {
+    .st-chatu8vi-vibe-generator-dialog .st-chatu8vi-field {
         margin-bottom: 1rem !important;
     }
 
-    .st-chatu8-vibe-generator-dialog .st-chatu8-icon-btn {
+    .st-chatu8vi-vibe-generator-dialog .st-chatu8vi-icon-btn {
         padding: 8px 10px;
         font-size: 0.9rem;
     }
